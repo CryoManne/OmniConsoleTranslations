@@ -5,15 +5,16 @@
 Rebuilt in place: existing translations for this version are preserved, and any strings still marked `untranslated` remain so (they fall back to English until translated).
 
 - Total strings (both projects): 473
-- Generated: 2026-07-12 19:13:24 +08:00
+- Generated: 2026-07-13 23:42:51 +08:00
 
-Jump to: [es-ES](#es-es) · [tr-TR](#tr-tr)
+Jump to: [es-ES](#es-es) · [ru-RU](#ru-ru) · [tr-TR](#tr-tr)
 
 ## Overall (both projects)
 
 | Language | Translated | Pending | Complete |
 |----------|-----------:|--------:|---------:|
 | es-ES | 450 | 23 | 95% |
+| ru-RU | 473 | 0 | 100% |
 | tr-TR | 473 | 0 | 100% |
 
 ## Project: OmniConsole
@@ -23,6 +24,7 @@ Strings: 451
 | Language | Translated | Pending | Complete |
 |----------|-----------:|--------:|---------:|
 | es-ES | 433 | 18 | 96% |
+| ru-RU | 451 | 0 | 100% |
 | tr-TR | 451 | 0 | 100% |
 
 ## Project: OmniConsole.PhantomLink
@@ -32,6 +34,7 @@ Strings: 22
 | Language | Translated | Pending | Complete |
 |----------|-----------:|--------:|---------:|
 | es-ES | 17 | 5 | 77% |
+| ru-RU | 22 | 0 | 100% |
 | tr-TR | 22 | 0 | 100% |
 
 ## Untranslated keys
@@ -68,6 +71,10 @@ Changed (re-translate) (5):
 - `Widget_ControllerLayoutPreset_Title.Text`
 - `Widget_ControllerLayoutPreset_OmniNav.Content`
 - `Widget_ControllerLayoutPreset_Classic.Content`
+
+### ru-RU
+
+_All translated._
 
 ### tr-TR
 

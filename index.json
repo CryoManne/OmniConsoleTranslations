@@ -67,6 +67,11 @@
         "revision": 1
       },
       {
+        "code": "ru-RU",
+        "translators": ["CryoManne"],
+        "revision": 1
+      },
+      {
         "code": "tr-TR",
         "translators": ["gggg-unit"],
         "revision": 2
@@ -76,6 +81,11 @@
       {
         "code": "es-ES",
         "translators": ["sagastvme"],
+        "revision": 1
+      },
+      {
+        "code": "ru-RU",
+        "translators": ["CryoManne"],
         "revision": 1
       },
       {

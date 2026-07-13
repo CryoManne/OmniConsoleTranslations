@@ -1,0 +1,1490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SettingsTitle.Text" xml:space="preserve">
+    <value>{OmniConsole} Ayarları</value>
+  </data>
+  <data name="SettingsDescription" xml:space="preserve">
+    <value>Varsayılan platform: {0}</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>{0} başlatılıyor...</value>
+  </data>
+  <data name="LaunchSuccess" xml:space="preserve">
+    <value>{0} başlatıldı</value>
+  </data>
+  <data name="LaunchSlowWarningText.Text" xml:space="preserve">
+    <value>Platform beklenenden uzun sürüyor ve hâlâ yükleniyor olabilir. Lütfen bekleyin. Gerekirse, Görev Görünümü'nü açmak için Xbox düğmesine basılı tutun ve platformun çalışıp çalışmadığını kontrol edin.</value>
+  </data>
+  <data name="LaunchTimeout" xml:space="preserve">
+    <value>Başlatma zaman aşımına uğradı. Lütfen {0}'nin normal şekilde çalıştığını doğrulayın.</value>
+  </data>
+  <data name="LaunchFailed" xml:space="preserve">
+    <value>{0} başlatılamıyor. Uygulamanın başlatılabildiğinden emin olun ve kurulumunu veya ayarlarını kontrol edin.</value>
+  </data>
+  <data name="OpenSettingsButton.Content" xml:space="preserve">
+    <value>Ayarları Aç</value>
+  </data>
+  <data name="ReturnToDesktopButton.Content" xml:space="preserve">
+    <value>Masaüstüne Dön</value>
+  </data>
+  <data name="FseNotAvailable" xml:space="preserve">
+    <value>Xbox Modu (FSE) etkin değil. Lütfen önce etkinleştirin, ardından {OmniConsole}'u manuel olarak yeniden başlatın.</value>
+  </data>
+  <data name="FseHandheldRequired" xml:space="preserve">
+    <value>Sınırlı PC Xbox Modu (FSE) algılandı, ancak {OmniConsole} Tam Elde Taşınabilir sürümü gerektiriyor. Lütfen Xbox Tam Ekran Deneyimi Aracı ile etkinleştirin, ardından {OmniConsole}'u manuel olarak yeniden başlatın.</value>
+  </data>
+  <data name="FseHomeAppNotSet" xml:space="preserve">
+    <value>Lütfen Windows Ayarları → Oyun → Xbox modu (FSE) bölümüne gidin ve "Ana uygulamayı seç" açılır menüsünden {OmniConsole}'u seçin, ardından {OmniConsole}'u manuel olarak yeniden başlatın.</value>
+  </data>
+  <data name="EnableFseButton.Content" xml:space="preserve">
+    <value>Xbox Modu'nu (FSE) Etkinleştir</value>
+  </data>
+  <data name="OpenFseSettingsButton.Content" xml:space="preserve">
+    <value>{OmniConsole}'u Ana Uygulama Yap</value>
+  </data>
+  <data name="Platform_SteamBigPicture" xml:space="preserve">
+    <value>Steam Big Picture</value>
+  </data>
+  <data name="Platform_XboxApp" xml:space="preserve">
+    <value>Xbox Uygulaması</value>
+  </data>
+  <data name="Platform_EpicGames" xml:space="preserve">
+    <value>Epic Games Store</value>
+  </data>
+  <data name="Platform_ArmouryCrateSE" xml:space="preserve">
+    <value>Armoury Crate SE</value>
+  </data>
+  <data name="Platform_PlayniteFullscreen" xml:space="preserve">
+    <value>Playnite Tam Ekran</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>OmniConsole</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Oyun bilgisayarları ve elde taşınabilir cihazlar için özel Windows 11 Xbox Modu (FSE) Ana kabuğu.</value>
+  </data>
+  <data name="AppExtensionDescription" xml:space="preserve">
+    <value>Windows Xbox Modu (FSE) için Özel Ana Kabuk.</value>
+  </data>
+  <data name="SettingsAppDisplayName" xml:space="preserve">
+    <value>OmniConsole Ayarları</value>
+  </data>
+  <data name="SettingsAppDescription" xml:space="preserve">
+    <value>Varsayılan oyun platformunu, Game Bar davranışını ve özel başlatma hedeflerini yapılandırın.</value>
+  </data>
+  <data name="ResetGameBarButton.Content" xml:space="preserve">
+    <value>Çalıştır</value>
+  </data>
+  <data name="Nav_General.Content" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="Nav_Troubleshoot.Content" xml:space="preserve">
+    <value>Sorun Giderme</value>
+  </data>
+  <data name="TroubleshootDescription.Text" xml:space="preserve">
+    <value>Yaygın sorunları teşhis edin ve düzeltin.</value>
+  </data>
+  <data name="TroubleshootTitle.Text" xml:space="preserve">
+    <value>Sorun Giderme</value>
+  </data>
+  <data name="TroubleshootSection_Fse.Text" xml:space="preserve">
+    <value>Xbox Modu (FSE)</value>
+  </data>
+  <data name="ResetGameBarSetting_Title.Text" xml:space="preserve">
+    <value>Game Bar'ı Yeniden Başlat ve Xbox Modu'na (FSE) Gir</value>
+  </data>
+  <data name="ResetGameBarSetting_Description.Text" xml:space="preserve">
+    <value>Game Bar'ın açılmaması veya Xbox Modu'na (FSE) girerken "Daha iyi performans için yeniden başlat" iletişim kutusunun görünmemesi gibi sorunları gidermek için Game Bar'ı yeniden başlatın.</value>
+  </data>
+  <data name="ResetGameBarSetting_Note.Text" xml:space="preserve">
+    <value>Bazı Windows sürümlerinde, yine de bir onay iletişim kutusu görünebilir.</value>
+  </data>
+  <data name="UseGameBarLibrarySwitch.OffContent" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="UseGameBarLibrarySwitch.OnContent" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="Nav_Advanced.Content" xml:space="preserve">
+    <value>Gelişmiş</value>
+  </data>
+  <data name="AdvancedTitle.Text" xml:space="preserve">
+    <value>Gelişmiş Ayarlar</value>
+  </data>
+  <data name="AdvancedDescription.Text" xml:space="preserve">
+    <value>Sistem davranışını ve entegrasyon seçeneklerini ince ayarlayın.</value>
+  </data>
+  <data name="AdvancedSection_Steam.Text" xml:space="preserve">
+    <value>Steam</value>
+  </data>
+  <data name="AdvancedSection_Nekomata.Text" xml:space="preserve">
+    <value>Nekomata</value>
+  </data>
+  <data name="PhantomKeySetting_Title.Text" xml:space="preserve">
+    <value>Steam Big Picture Modunda Steam Menülerini Açmak için &#xEECA; Tuşuna Basın</value>
+  </data>
+  <data name="PhantomKeySetting_Description.Text" xml:space="preserve">
+    <value>Steam Menüsünü açmak için &#xEECA; tuşuna kısa basın, Hızlı Erişim Menüsünü açmak için &#xEECA; tuşuna uzun basın.</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_Title.Text" xml:space="preserve">
+    <value>Steam Oyun İçi Kaplamasını Açmak İçin &#xEDE3; Tuşuna Uzun Basın</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_Description.Text" xml:space="preserve">
+    <value>Steam Oyun İçi Kaplamasının etkinleştirilmesini gerektirir.</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_Note.Text" xml:space="preserve">
+    <value>Yalnızca varsayılan platform Steam Big Picture olarak ayarlandığında kullanılabilir.</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_ModifierNote.Text" xml:space="preserve">
+    <value>Kaplamayı kapatmak ve değiştirici tuşların (örn. Shift, Ctrl veya Alt) oyunda takılı kalmasını önlemek için &#xEDE3; tuşuna uzun basın.
+Alternatif olarak, Steam Ayarları &gt; Oyun İçi &gt; Kaplama kısayol tuşu(ları) bölümünden kısayolu değiştirici olmayan bir tuşla değiştirin.</value>
+  </data>
+  <data name="GamepadMappingModeSetting_Title.Text" xml:space="preserve">
+    <value>Nekomata Modu</value>
+  </data>
+  <data name="GamepadMappingModeSetting_Description.Text" xml:space="preserve">
+    <value>Nekomata'nın oyun kumandanızı klavye ve fareye dönüştürmesine izin verin ve uygulama bazında ayarları "Nekomata" sayfasında özelleştirin.</value>
+  </data>
+  <data name="GamepadMappingModeSetting_Note.Text" xml:space="preserve">
+    <value>Yerleşik eşleme; Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, Dosya Gezgini, Steam ve Discord'u destekler.</value>
+  </data>
+  <data name="GamepadMappingModeSetting_BuiltInMappingNote.Text" xml:space="preserve">
+    <value>Devre dışı — cihazın yerleşik oyun kumandası eşlemesi var.</value>
+  </data>
+  <data name="ControllerLayoutPresetSetting_Title.Text" xml:space="preserve">
+    <value>Kontrolcü Düzeni Önayarı</value>
+  </data>
+  <data name="ControllerLayoutPresetSetting_Description.Text" xml:space="preserve">
+    <value>Yerleşik eşleme ve yeni profiller için varsayılan düzeni ayarlayın. OmniNav: sol çubuk imleci hareket ettirir; Klasik: sağ çubuk imleci hareket ettirir.</value>
+  </data>
+  <data name="ControllerLayoutPresetItem_OmniNav" xml:space="preserve">
+    <value>OmniNav</value>
+  </data>
+  <data name="ControllerLayoutPresetItem_Classic" xml:space="preserve">
+    <value>Klasik</value>
+  </data>
+  <data name="CursorSpeedSetting_Title.Text" xml:space="preserve">
+    <value>İmleç Hızı</value>
+  </data>
+  <data name="CursorSpeedSetting_Description.Text" xml:space="preserve">
+    <value>İmleç hareket hızını varsayılana (%100) göre ölçeklendirin.</value>
+  </data>
+  <data name="BackgroundMaterialSetting_Title.Text" xml:space="preserve">
+    <value>Arka Plan Malzemesi</value>
+  </data>
+  <data name="BackgroundMaterialSetting_Description.Text" xml:space="preserve">
+    <value>Arka plan malzemesini seçin.</value>
+  </data>
+  <data name="BackgroundMaterialSetting_Note.Text" xml:space="preserve">
+    <value>Windows saydamlık efektlerinin etkinleştirilmesini gerektirir.</value>
+  </data>
+  <data name="BackgroundMaterialItem_PhantomClassic" xml:space="preserve">
+    <value>Phantom Klasik</value>
+  </data>
+  <data name="BackgroundMaterialItem_PhantomGlass" xml:space="preserve">
+    <value>Phantom Cam</value>
+  </data>
+  <data name="BackgroundMaterialItem_PhantomGlassDeep" xml:space="preserve">
+    <value>Phantom Derin Cam</value>
+  </data>
+  <data name="AdvancedSection_GameBar.Text" xml:space="preserve">
+    <value>Game Bar</value>
+  </data>
+  <data name="GameBarLibrarySetting_Title.Text" xml:space="preserve">
+    <value>Kitaplık Düğmesi Ayarları Açar</value>
+  </data>
+  <data name="GameBarLibrarySetting_Description.Text" xml:space="preserve">
+    <value>Game Bar'daki "Kitaplık" düğmesi için eylemi seçin.</value>
+  </data>
+  <data name="PassthroughSetting_Title.Text" xml:space="preserve">
+    <value>Platforma Doğrudan Git</value>
+  </data>
+  <data name="PassthroughSetting_Description.Text" xml:space="preserve">
+    <value>"Ana Sayfa" ve "Kitaplık" öğelerini {OmniConsole} yerine doğrudan varsayılan platforma yönlendirin.</value>
+  </data>
+  <data name="PassthroughSetting_Note.Text" xml:space="preserve">
+    <value>Şu anda yalnızca Xbox Uygulaması'nı destekler. Yukarıdaki "Kitaplık" düğmesi ayarı önceliklidir.</value>
+  </data>
+  <data name="EnablePassthroughSwitch.OffContent" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="EnablePassthroughSwitch.OnContent" xml:space="preserve">
+    <value>Doğrudan</value>
+  </data>
+  <data name="GamepadHint_Select.Text" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="GamepadHint_Exit.Text" xml:space="preserve">
+    <value>Çıkış</value>
+  </data>
+  <data name="Nav_SystemPlatforms.Content" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Nav_UserPlatforms.Content" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="AddPlatformText.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="GamepadHint_SwitchTab.Text" xml:space="preserve">
+    <value>Sekme değiştir</value>
+  </data>
+  <data name="GamepadHint_Add.Text" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="GamepadHint_Edit.Text" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="GamepadHint_Launch.Text" xml:space="preserve">
+    <value>Ayarla ve başlat</value>
+  </data>
+  <data name="PlatformDialog_AddTitle" xml:space="preserve">
+    <value>Platform Ekle</value>
+  </data>
+  <data name="PlatformDialog_EditTitle" xml:space="preserve">
+    <value>Platformu Düzenle</value>
+  </data>
+  <data name="PlatformDialog_NameLabel" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="PlatformDialog_NamePlaceholder" xml:space="preserve">
+    <value>örn., Oyun Platformum</value>
+  </data>
+  <data name="PlatformDialog_LaunchTypeLabel" xml:space="preserve">
+    <value>Başlatma Türü</value>
+  </data>
+  <data name="PlatformDialog_Executable" xml:space="preserve">
+    <value>Çalıştırılabilir</value>
+  </data>
+  <data name="PlatformDialog_UriLabel" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="PlatformDialog_UriPlaceholder" xml:space="preserve">
+    <value>örn., steam://open/bigpicture</value>
+  </data>
+  <data name="PlatformDialog_PathLabel" xml:space="preserve">
+    <value>Yol</value>
+  </data>
+  <data name="PlatformDialog_PathPlaceholder" xml:space="preserve">
+    <value>örn., C:\Program Files (x86)\Steam\steam.exe</value>
+  </data>
+  <data name="PlatformDialog_IconLabel" xml:space="preserve">
+    <value>Kart Kapağı (isteğe bağlı)</value>
+  </data>
+  <data name="PlatformDialog_IconHint" xml:space="preserve">
+    <value>Önerilen: 800 x 560 piksel (10:7)</value>
+  </data>
+  <data name="PlatformDialog_ConfigWarning" xml:space="preserve">
+    <value>Uyarı: Yanlış yapılandırma, platform başlatma hatasına veya beklenmeyen davranışa neden olabilir.</value>
+  </data>
+  <data name="PlatformDialog_ValidationNameTooLong" xml:space="preserve">
+    <value>Ad 50 karakteri geçmemelidir.</value>
+  </data>
+  <data name="PlatformDialog_ValidationNameInvalid" xml:space="preserve">
+    <value>Ad geçersiz karakterler içeriyor.</value>
+  </data>
+  <data name="PlatformDialog_ValidationTargetEmpty" xml:space="preserve">
+    <value>Bu alan zorunludur.</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriInvalid" xml:space="preserve">
+    <value>Geçersiz URI biçimi. Örnek: steam://open/bigpicture</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriNotSupported" xml:space="preserve">
+    <value>Bu URI şemasını işlemek için kayıtlı bir uygulama yok.</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriSelf" xml:space="preserve">
+    <value>{OmniConsole}'un kendisi platform olarak eklenemez; bu, yeniden başlatma döngüsüne neden olur.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathInvalid" xml:space="preserve">
+    <value>Geçersiz dosya yolu. Örnek: C:\Program Files (x86)\Steam\steam.exe</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathConsoleApp" xml:space="preserve">
+    <value>Konsol uygulamaları desteklenmez. Xbox Modu'nun (FSE) döngüsel olarak yeniden başlamasına neden olabilirler.</value>
+  </data>
+  <data name="PlatformDialog_ValidationArgsInvalid" xml:space="preserve">
+    <value>Bağımsız değişkenler potansiyel olarak güvensiz karakterler içeriyor.</value>
+  </data>
+  <data name="CustomPlatform_ConsentTitle.Text" xml:space="preserve">
+    <value>Özel Platform Desteği (Deneysel)</value>
+  </data>
+  <data name="CustomPlatform_ConsentBody.Text" xml:space="preserve">
+    <value>Bu özellik, özel platform başlatma yapılandırmaları eklemenize olanak tanır. Devam etmeden önce lütfen aşağıdakileri dikkatlice okuyun:
+
+- Yazılım, açık veya zımni hiçbir garanti olmaksızın "olduğu gibi" sağlanmaktadır; bu özellik deneyseldir ve hiçbir garanti olmaksızın sunulmaktadır.
+- Yanlış yapılandırılmış platformlar başlatılamayabilir, bu da Xbox Modu (FSE) ortamını çökertebilir veya hatta kurtarmak için uygulama sıfırlaması gerektirebilir.
+- Geliştirici, bu programın veya özel platform yapılandırmalarının kullanımından kaynaklanan herhangi bir hasar, veri kaybı veya sorun için hiçbir sorumluluk veya yükümlülük kabul etmez.
+- Oluşturduğunuz tüm yapılandırmaların güvenliğinden, doğruluğundan ve yasallığından yalnızca siz sorumlusunuz.
+
+"Anlıyorum ve Kabul Ediyorum" düğmesine tıklayarak, bu riskleri kabul etmiş ve bu özelliği tamamen kendi takdir ve sorumluluğunuzda kullanmayı kabul etmiş olursunuz.</value>
+  </data>
+  <data name="CustomPlatform_ConsentAccept.Content" xml:space="preserve">
+    <value>Anlıyorum ve Kabul Ediyorum</value>
+  </data>
+  <data name="PlatformDialog_ArgsLabel" xml:space="preserve">
+    <value>Bağımsız Değişkenler (isteğe bağlı)</value>
+  </data>
+  <data name="PlatformDialog_ArgsPlaceholder" xml:space="preserve">
+    <value>örn., -bigpicture</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathNotExe" xml:space="preserve">
+    <value>Yalnızca çalıştırılabilir dosyalar (.exe) desteklenir.</value>
+  </data>
+  <data name="PlatformDialog_ValidationArgsTooLong" xml:space="preserve">
+    <value>Bağımsız değişkenler 500 karakteri geçmemelidir.</value>
+  </data>
+  <data name="PlatformNotAvailable" xml:space="preserve">
+    <value>{0} kullanılamıyor. Lütfen kurulu olduğunu doğrulayın veya farklı bir platform seçin.</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriTooLong" xml:space="preserve">
+    <value>URI 2048 karakteri geçmemelidir.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathTooLong" xml:space="preserve">
+    <value>Yol 260 karakteri geçmemelidir.</value>
+  </data>
+  <data name="PlatformDialog_Save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="PlatformDialog_Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="PlatformDialog_Delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="PlatformDialog_PackagedApp" xml:space="preserve">
+    <value>Paketlenmiş Uygulama (MSIX / APPX)</value>
+  </data>
+  <data name="PlatformDialog_PackagedAppLabel" xml:space="preserve">
+    <value>Paket Aile Adı</value>
+  </data>
+  <data name="PlatformDialog_PackagedAppPlaceholder" xml:space="preserve">
+    <value>Yüklü paketleri aramak için yazın...</value>
+  </data>
+  <data name="PlatformDialog_PackagedAppWarning" xml:space="preserve">
+    <value>Uyarı: Tüm paketler başlatmayı desteklemez (örn. uzantılar veya arka plan hizmetleri). "Kullanıcı arayüzü" olan bir uygulama seçtiğinizden emin olun.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppEmpty" xml:space="preserve">
+    <value>Lütfen bir paketlenmiş uygulama seçin.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppSelf" xml:space="preserve">
+    <value>{OmniConsole}'un kendisi platform olarak eklenemez.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppGameBar" xml:space="preserve">
+    <value>Game Bar platform olarak eklenemez.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppNotAllowed" xml:space="preserve">
+    <value>Bu paket platform olarak kullanılamaz (örn. bir uzantı, hizmet veya çalışma zamanı bileşeni olabilir).</value>
+  </data>
+  <data name="CardMenu_Export" xml:space="preserve">
+    <value>Dışa Aktar</value>
+  </data>
+  <data name="ImportPlatformButton.Content" xml:space="preserve">
+    <value>İçe Aktar</value>
+  </data>
+  <data name="ImportPlatformDialog_Title" xml:space="preserve">
+    <value>Platformu İçe Aktar</value>
+  </data>
+  <data name="ImportPlatformDialog_Warning" xml:space="preserve">
+    <value>Uyarı: Yalnızca güvendiğiniz kaynaklardan yapılandırma içe aktarın. Kötü amaçlı yapılandırmalar zararlı programları başlatabilir.</value>
+  </data>
+  <data name="ImportPlatformDialog_Placeholder" xml:space="preserve">
+    <value>JSON'u buraya yapıştırın... Örneğin:
+{
+  "shell": "OmniConsole",
+  "displayName": "Steam Big Picture",
+  "launchType": "ProtocolUri",
+  "launchTarget": "steam://open/bigpicture"
+}</value>
+  </data>
+  <data name="ImportPlatformDialog_Primary" xml:space="preserve">
+    <value>İçe Aktar</value>
+  </data>
+  <data name="Import_Error_EmptyJson" xml:space="preserve">
+    <value>Lütfen bir JSON dizesi yapıştırın.</value>
+  </data>
+  <data name="Import_Error_InvalidJson" xml:space="preserve">
+    <value>Metin geçerli bir JSON değil.</value>
+  </data>
+  <data name="Import_Error_MissingName" xml:space="preserve">
+    <value>Görünen ad gereklidir.</value>
+  </data>
+  <data name="Import_Error_InvalidLaunchType" xml:space="preserve">
+    <value>Bilinmeyen başlatma türü.</value>
+  </data>
+  <data name="Import_Error_MissingTarget" xml:space="preserve">
+    <value>Başlatma hedefi gereklidir.</value>
+  </data>
+  <data name="Import_Error_InvalidCharacters" xml:space="preserve">
+    <value>İçerik geçersiz karakterler içeriyor.</value>
+  </data>
+  <data name="Import_Error_InvalidUri" xml:space="preserve">
+    <value>Geçersiz protokol URI biçimi.</value>
+  </data>
+  <data name="Import_Error_UriNotSupported" xml:space="preserve">
+    <value>Bu URI şemasını işlemek için kayıtlı bir uygulama yok.</value>
+  </data>
+  <data name="Import_Error_UriSelf" xml:space="preserve">
+    <value>{OmniConsole}'un kendisi platform olarak içe aktarılamaz.</value>
+  </data>
+  <data name="Import_Error_InvalidExecutable" xml:space="preserve">
+    <value>Çalıştırılabilir dosya yolu .exe ile bitmelidir.</value>
+  </data>
+  <data name="Import_Error_ConsoleApp" xml:space="preserve">
+    <value>Konsol uygulamaları desteklenmez.</value>
+  </data>
+  <data name="Import_Error_PackageNotAllowed" xml:space="preserve">
+    <value>Bu paket platform olarak kullanılamaz (örn. bir uzantı, hizmet veya çalışma zamanı bileşeni olabilir).</value>
+  </data>
+  <data name="ExportSuccessTeachingTip.Title" xml:space="preserve">
+    <value>Kopyalandı!</value>
+  </data>
+  <data name="ExportSuccessTeachingTip.Subtitle" xml:space="preserve">
+    <value>Platform yapılandırması panoya kopyalandı.</value>
+  </data>
+  <data name="FilePickerDialog_Title" xml:space="preserve">
+    <value>Bir dosya seçin</value>
+  </data>
+  <data name="FilePickerDialog_Select" xml:space="preserve">
+    <value>Seç</value>
+  </data>
+  <data name="FilePickerDialog_EmptyFolder" xml:space="preserve">
+    <value>Bu klasör boş</value>
+  </data>
+  <data name="FilePickerDialog_AccessDenied" xml:space="preserve">
+    <value>Erişim reddedildi</value>
+  </data>
+  <data name="FilePickerDialog_Desktop" xml:space="preserve">
+    <value>Masaüstü</value>
+  </data>
+  <data name="FilePickerDialog_Downloads" xml:space="preserve">
+    <value>İndirilenler</value>
+  </data>
+  <data name="FilePickerDialog_Documents" xml:space="preserve">
+    <value>Belgeler</value>
+  </data>
+  <data name="FilePickerDialog_Pictures" xml:space="preserve">
+    <value>Resimler</value>
+  </data>
+  <data name="FilePickerDialog_Music" xml:space="preserve">
+    <value>Müzik</value>
+  </data>
+  <data name="FilePickerDialog_Videos" xml:space="preserve">
+    <value>Videolar</value>
+  </data>
+  <data name="FilePickerDialog_FilterExe" xml:space="preserve">
+    <value>Çalıştırılabilirler (*.exe)</value>
+  </data>
+  <data name="FilePickerDialog_FilterImage" xml:space="preserve">
+    <value>Görseller (*.png, *.jpg, *.jpeg, *.bmp)</value>
+  </data>
+  <data name="FilePickerDialog_NavigateUp" xml:space="preserve">
+    <value>Bir üst seviye</value>
+  </data>
+  <data name="FilePickerDialog_LegacyPicker" xml:space="preserve">
+    <value>Gözat (Windows)</value>
+  </data>
+  <data name="AdvancedSection_Updates.Text" xml:space="preserve">
+    <value>Güncellemeler</value>
+  </data>
+  <data name="AutoUpdateCheck_Title.Text" xml:space="preserve">
+    <value>Otomatik Güncelleme Kontrolü</value>
+  </data>
+  <data name="AutoUpdateCheck_Description.Text" xml:space="preserve">
+    <value>Ayarları açarken yeni sürümleri kontrol edin.</value>
+  </data>
+  <data name="VersionInfo_Title.Text" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="CheckForUpdatesButton.Content" xml:space="preserve">
+    <value>Güncellemeleri Kontrol Et</value>
+  </data>
+  <data name="DownloadInstallButton.Content" xml:space="preserve">
+    <value>İndir ve Yükle</value>
+  </data>
+  <data name="UpdateCheck_NewVersion_Subtitle" xml:space="preserve">
+    <value>{OmniConsole} v{0} kullanılabilir.</value>
+  </data>
+  <data name="UpdateCheck_UpToDate_Subtitle" xml:space="preserve">
+    <value>{OmniConsole} en son sürümde.</value>
+  </data>
+  <data name="UpdateCheck_Failed_Subtitle" xml:space="preserve">
+    <value>Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar" xml:space="preserve">
+    <value>{OmniConsole} v{0} kullanılabilir.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar_Launch_GameBar" xml:space="preserve">
+    <value>{OmniConsole} v{0} kullanılabilir. Game Bar &gt; Kitaplık'tan {OmniConsole} Ayarları'nı açın, ardından indirmek ve yüklemek için ☰ &gt; Gelişmiş bölümüne gidin.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar_Launch_StartMenu" xml:space="preserve">
+    <value>{OmniConsole} v{0} kullanılabilir. Başlat &gt; Tüm uygulamalar'dan {OmniConsole} Ayarları'nı açın, ardından indirmek ve yüklemek için ☰ &gt; Gelişmiş bölümüne gidin.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar_Settings" xml:space="preserve">
+    <value>{OmniConsole} v{0} kullanılabilir. İndirmek ve yüklemek için ☰ &gt; Gelişmiş bölümüne gidin.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Title" xml:space="preserve">
+    <value>OmniCharm Widget'ı kullanılabilir.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Message" xml:space="preserve">
+    <value>{OmniConsole} özelliklerini oyun içinde açıp kapatmak ve uygulama başına Nekomata oyun kumandası eşlemesi ayarlamak için hızlı erişim Game Bar widget'ı. İndirmek ve yüklemek için ☰ &gt; Gelişmiş bölümüne gidin.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Launch_GameBar" xml:space="preserve">
+    <value>OmniCharm Widget'ı kullanılabilir. Game Bar &gt; Kitaplık'tan {OmniConsole} Ayarları'nı açın, ardından indirmek ve yüklemek için ☰ &gt; Gelişmiş bölümüne gidin.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Launch_StartMenu" xml:space="preserve">
+    <value>OmniCharm Widget'ı kullanılabilir. Başlat &gt; Tüm uygulamalar'dan {OmniConsole} Ayarları'nı açın, ardından indirmek ve yüklemek için ☰ &gt; Gelişmiş bölümüne gidin.</value>
+  </data>
+  <data name="UpdateCheck_Checking" xml:space="preserve">
+    <value>Kontrol ediliyor...</value>
+  </data>
+  <data name="UpdateDownload_InProgress" xml:space="preserve">
+    <value>İndiriliyor...</value>
+  </data>
+  <data name="UpdateDownload_Installing" xml:space="preserve">
+    <value>İndirme tamamlandı. Yükleniyor...</value>
+  </data>
+  <data name="UpdateDownload_Failed" xml:space="preserve">
+    <value>İndirme başarısız oldu. Lütfen tekrar deneyin.</value>
+  </data>
+  <data name="UpdateProgressDialog_Title" xml:space="preserve">
+    <value>{OmniConsole} Güncelleniyor</value>
+  </data>
+  <data name="UpdateProgressDialog_Hint" xml:space="preserve">
+    <value>Güncelleme tamamlanana kadar uygulamayı kapatmayın veya konsolu kapatmayın.</value>
+  </data>
+  <data name="UpdateProgress_Phase1Download" xml:space="preserve">
+    <value>OmniCharm widget'ı indiriliyor (1/2)...</value>
+  </data>
+  <data name="UpdateProgress_Phase1Install" xml:space="preserve">
+    <value>OmniCharm widget'ı yükleniyor (1/2)...</value>
+  </data>
+  <data name="UpdateProgress_Phase2Download" xml:space="preserve">
+    <value>{OmniConsole} indiriliyor (2/2)...</value>
+  </data>
+  <data name="UpdateProgress_Phase2Install" xml:space="preserve">
+    <value>{OmniConsole} yükleniyor (2/2). Uygulama yeniden başlatılacak...</value>
+  </data>
+  <data name="UpdateProgress_LanguageSync" xml:space="preserve">
+    <value>Topluluk dil dosyaları güncelleniyor...</value>
+  </data>
+  <data name="ResumeUpdateDialog_Title" xml:space="preserve">
+    <value>Güncellemeye devam edilsin mi?</value>
+  </data>
+  <data name="ResumeUpdateDialog_Content" xml:space="preserve">
+    <value>v{0} sürümüne yapılan önceki güncelleme tamamlanmadı. OmniCharm widget'ını ve {OmniConsole}'u aynı sürümde tutmak için şimdi devam edin.</value>
+  </data>
+  <data name="ResumeUpdateDialog_Resume" xml:space="preserve">
+    <value>Sürdür</value>
+  </data>
+  <data name="ResumeUpdateDialog_Later" xml:space="preserve">
+    <value>Sonra</value>
+  </data>
+  <data name="DeveloperMode_Warning" xml:space="preserve">
+    <value>Geliştirici Modu kapalı. Güncellemeden önce etkinleştirin.</value>
+  </data>
+  <data name="DeveloperMode_OpenSettings.Content" xml:space="preserve">
+    <value>Ayarları Aç</value>
+  </data>
+  <data name="Nav_About.Content" xml:space="preserve">
+    <value>Hakkında</value>
+  </data>
+  <data name="AboutTitle.Text" xml:space="preserve">
+    <value>{OmniConsole} Hakkında</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>Sürüm ve ortam bilgileri, yükseltme veya uyumluluk sorunlarını bildirmeye yardımcı olur.</value>
+  </data>
+  <data name="AboutSection_Suite.Text" xml:space="preserve">
+    <value>{OmniConsole} Paketi</value>
+  </data>
+  <data name="AboutSection_Xfset.Text" xml:space="preserve">
+    <value>XFSET (Xbox Tam Ekran Deneyimi Aracı)</value>
+  </data>
+  <data name="AboutSection_Hardware.Text" xml:space="preserve">
+    <value>Donanım</value>
+  </data>
+  <data name="AboutSection_PhantomKey.Text" xml:space="preserve">
+    <value>PhantomKey Sağlığı</value>
+  </data>
+  <data name="AboutSection_Actions.Text" xml:space="preserve">
+    <value>Eylemler</value>
+  </data>
+  <data name="AboutActions_Title.Text" xml:space="preserve">
+    <value>Ortam Görüntüsü</value>
+  </data>
+  <data name="Label_PhantomKeyProcess.Text" xml:space="preserve">
+    <value>İşlem</value>
+  </data>
+  <data name="Label_PhantomKeyUptime.Text" xml:space="preserve">
+    <value>Çalışma Süresi</value>
+  </data>
+  <data name="Label_PhantomKeyIntegrity.Text" xml:space="preserve">
+    <value>Bütünlük Seviyesi</value>
+  </data>
+  <data name="Label_PhantomKeyResponsiveness.Text" xml:space="preserve">
+    <value>Yanıt Verme</value>
+  </data>
+  <data name="PhantomKeyHealth_Running" xml:space="preserve">
+    <value>çalışıyor</value>
+  </data>
+  <data name="Common_Unknown" xml:space="preserve">
+    <value>Bilinmiyor</value>
+  </data>
+  <data name="Common_NotInstalled" xml:space="preserve">
+    <value>Yüklü değil</value>
+  </data>
+  <data name="PhantomKeyHealth_NotRunning" xml:space="preserve">
+    <value>çalışmıyor</value>
+  </data>
+  <data name="PhantomKeyResp_Responsive" xml:space="preserve">
+    <value>yanıt veriyor ({0} ms)</value>
+  </data>
+  <data name="PhantomKeyResp_Busy" xml:space="preserve">
+    <value>meşgul ({0} ms)</value>
+  </data>
+  <data name="PhantomKeyResp_Stuck" xml:space="preserve">
+    <value>ana döngü takıldı (ilerleme olmadan {0} ms)</value>
+  </data>
+  <data name="PhantomKeyResp_Hung" xml:space="preserve">
+    <value>yanıt vermiyor (işlem donmuş olabilir)</value>
+  </data>
+  <data name="PhantomKeyResp_NoPingWindow" xml:space="preserve">
+    <value>ping penceresi yok (eski yapı veya yeni başlatıldı)</value>
+  </data>
+  <data name="AboutSection_System.Text" xml:space="preserve">
+    <value>Sistem</value>
+  </data>
+  <data name="Label_System.Text" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Label_Baseboard.Text" xml:space="preserve">
+    <value>Anakart</value>
+  </data>
+  <data name="Label_Cpu.Text" xml:space="preserve">
+    <value>İşlemci</value>
+  </data>
+  <data name="Label_Ram.Text" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="Label_Gpu.Text" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Label_OmniConsole.Text" xml:space="preserve">
+    <value>{OmniConsole}</value>
+  </data>
+  <data name="Label_PhantomBridge.Text" xml:space="preserve">
+    <value>PhantomBridge</value>
+  </data>
+  <data name="Label_PhantomKey.Text" xml:space="preserve">
+    <value>PhantomKey</value>
+  </data>
+  <data name="Label_PhantomPaw.Text" xml:space="preserve">
+    <value>PhantomPaw</value>
+  </data>
+  <data name="Label_PhantomLink.Text" xml:space="preserve">
+    <value>PhantomLink (OmniCharm)</value>
+  </data>
+  <data name="Label_WindowsBuild.Text" xml:space="preserve">
+    <value>İşletim Sistemi</value>
+  </data>
+  <data name="Label_FseState.Text" xml:space="preserve">
+    <value>Xbox Modu (FSE) Durumu</value>
+  </data>
+  <data name="Label_DeviceForm.Text" xml:space="preserve">
+    <value>Cihaz Formu</value>
+  </data>
+  <data name="Label_MaxTouchPoints.Text" xml:space="preserve">
+    <value>Maks. Dokunma Noktası</value>
+  </data>
+  <data name="MaxTouchPoints_NoTouch" xml:space="preserve">
+    <value>dokunmatik ekran yok</value>
+  </data>
+  <data name="Label_Locale.Text" xml:space="preserve">
+    <value>Yerel Ayar</value>
+  </data>
+  <data name="Label_CountryRegion.Text" xml:space="preserve">
+    <value>Ülke veya Bölge</value>
+  </data>
+  <data name="Label_DeviceRegion.Text" xml:space="preserve">
+    <value>Cihaz Kurulum Bölgesi</value>
+  </data>
+  <data name="Label_CapturedAt.Text" xml:space="preserve">
+    <value>Yakalanma zamanı:</value>
+  </data>
+  <data name="XfsetStatus_NotInstalled" xml:space="preserve">
+    <value>yüklü değil</value>
+  </data>
+  <data name="XfsetStatus_Installed" xml:space="preserve">
+    <value>yüklü</value>
+  </data>
+  <data name="XfsetStatus_TouchServiceRunning" xml:space="preserve">
+    <value>touchservice çalışıyor</value>
+  </data>
+  <data name="XfsetStatus_TouchServiceNotRunning" xml:space="preserve">
+    <value>touchservice çalışmıyor</value>
+  </data>
+  <data name="XfsetStatus_TouchServiceUnknown" xml:space="preserve">
+    <value>touchservice durumu bilinmiyor</value>
+  </data>
+  <data name="CopyAboutButton.Content" xml:space="preserve">
+    <value>Panoya Kopyala</value>
+  </data>
+  <data name="RefreshAboutButton.Content" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="AboutCopyConfirmTeachingTip.Title" xml:space="preserve">
+    <value>Panoya kopyalandı</value>
+  </data>
+  <data name="AboutCopyConfirmTeachingTip.Subtitle" xml:space="preserve">
+    <value>Bir GitHub Sorunu'na yapıştırın.</value>
+  </data>
+  <data name="Nav_GamepadMapping.Content" xml:space="preserve">
+    <value>Nekomata</value>
+  </data>
+  <data name="GamepadMappingTitle.Text" xml:space="preserve">
+    <value>Nekomata</value>
+  </data>
+  <data name="GamepadMappingDescription.Text" xml:space="preserve">
+    <value>Nekomata her uygulama için bir tılsım örecek, oyun kumandanız için mükemmel tuşları ve tıklamaları bir araya getirecek.</value>
+  </data>
+  <data name="GamepadMappingEmptyHint.Text" xml:space="preserve">
+    <value>Miyav~ henüz tılsımlanmış uygulama yok. Game Bar'da OmniCharm widget'ını açın ve "Bu uygulama için oyun kumandası eşlemesini özelleştir" seçeneğini seçin — Nekomata onun için yeni bir tılsım örecek.</value>
+  </data>
+  <data name="GamepadMappingToolsSection.Text" xml:space="preserve">
+    <value>Araçlar</value>
+  </data>
+  <data name="GamepadProfile_BlockNativeGamepadInput_Title.Text" xml:space="preserve">
+    <value>Çift Girişi Önle</value>
+  </data>
+  <data name="GamepadProfile_BlockNativeGamepadInput_Description.Text" xml:space="preserve">
+    <value>Simüle edilmiş klavye ve fare ile etkileşimi önlemek için bu uygulamanın yerel XInput ve DirectInput sinyalleri almasını engelleyin.</value>
+  </data>
+  <data name="GamepadProfile_BlockNativeGamepadInput_Note.Text" xml:space="preserve">
+    <value>Değişiklikleri uygulamak için uygulamayı yeniden başlatın. Hile koruması olan oyunlarda (örn. EAC, BattlEye veya VAC) bunu etkinleştirmeyin, aksi takdirde ihlal tetikleyebilirsiniz.</value>
+  </data>
+  <data name="GamepadProfile_MappingServicePriority_Title.Text" xml:space="preserve">
+    <value>Nekomata Hızlandırma</value>
+  </data>
+  <data name="GamepadProfile_MappingServicePriority_Description.Text" xml:space="preserve">
+    <value>Yoğun oyun veya uygulamalar çalışırken imleç takılmasını azaltmak için eşleme servisinin önceliğini yükseltin.</value>
+  </data>
+  <data name="GamepadProcessPriority_Standard" xml:space="preserve">
+    <value>Standart</value>
+  </data>
+  <data name="GamepadProcessPriority_Performance" xml:space="preserve">
+    <value>Performans</value>
+  </data>
+  <data name="GamepadRepeatToggle.Content" xml:space="preserve">
+    <value>Tekrarla</value>
+  </data>
+  <data name="GamepadMappingClearAllButton.Content" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="GamepadMappingClearAllConfirmTitle" xml:space="preserve">
+    <value>Tüm bağlamalar temizlensin mi?</value>
+  </data>
+  <data name="GamepadMappingClearAllConfirmBody" xml:space="preserve">
+    <value>All bindings will be set to None.</value>
+  <comment>untranslated:changed</comment></data>
+  <data name="GamepadMappingClearAllConfirmYes" xml:space="preserve">
+    <value>Tümünü Temizle</value>
+  </data>
+  <data name="GamepadMappingResetButton.Content" xml:space="preserve">
+    <value>OmniNav Varsayılanları</value>
+  </data>
+  <data name="GamepadMappingResetConfirmTitle" xml:space="preserve">
+    <value>OmniNav varsayılanlarına sıfırlansın mı?</value>
+  </data>
+  <data name="GamepadMappingResetConfirmBody" xml:space="preserve">
+    <value>Tüm mevcut bağlamalar OmniNav varsayılanlarıyla değiştirilecek.</value>
+  </data>
+  <data name="GamepadMappingResetConfirmYes" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="GamepadMappingResetClassicButton.Content" xml:space="preserve">
+    <value>Klasik Varsayılanlar</value>
+  </data>
+  <data name="GamepadMappingResetClassicConfirmTitle" xml:space="preserve">
+    <value>Klasik varsayılanlara sıfırlansın mı?</value>
+  </data>
+  <data name="GamepadMappingResetClassicConfirmBody" xml:space="preserve">
+    <value>Tüm mevcut bağlamalar Klasik varsayılanlarla değiştirilecek.</value>
+  </data>
+  <data name="GamepadMappingResetClassicConfirmYes" xml:space="preserve">
+    <value>Sıfırla</value>
+  </data>
+  <data name="GamepadMappingCopyFromButton.Content" xml:space="preserve">
+    <value>Uygulamadan Kopyala…</value>
+  </data>
+  <data name="GamepadMappingChangeKeyButton" xml:space="preserve">
+    <value>Tuşu değiştir…</value>
+  </data>
+  <data name="AppIdUwp" xml:space="preserve">
+    <value>Paketlenmiş uygulama</value>
+  </data>
+  <data name="AppIdProcessPrefix" xml:space="preserve">
+    <value>İşlem: </value>
+  </data>
+  <data name="AppIdAumidPrefix" xml:space="preserve">
+    <value>AUMID: </value>
+  </data>
+  <data name="GamepadProfile_PathBoundLabel.Text" xml:space="preserve">
+    <value>Çalıştırılabilir yola bağlı:</value>
+  </data>
+  <data name="GamepadAction_None" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="GamepadAction_KeyTap" xml:space="preserve">
+    <value>Klavye tuşu</value>
+  </data>
+  <data name="GamepadAction_KeyCombo" xml:space="preserve">
+    <value>Tuş kombinasyonu</value>
+  </data>
+  <data name="GamepadAction_MouseLeft" xml:space="preserve">
+    <value>Fare sol</value>
+  </data>
+  <data name="GamepadAction_MouseRight" xml:space="preserve">
+    <value>Fare sağ</value>
+  </data>
+  <data name="GamepadAction_MouseMiddle" xml:space="preserve">
+    <value>Fare orta</value>
+  </data>
+  <data name="GamepadAction_WheelUp" xml:space="preserve">
+    <value>Yukarı kaydır</value>
+  </data>
+  <data name="GamepadAction_WheelDown" xml:space="preserve">
+    <value>Aşağı kaydır</value>
+  </data>
+  <data name="GamepadAction_WheelLeft" xml:space="preserve">
+    <value>Sola kaydır</value>
+  </data>
+  <data name="GamepadAction_WheelRight" xml:space="preserve">
+    <value>Sağa kaydır</value>
+  </data>
+  <data name="GamepadAction_StickCursor" xml:space="preserve">
+    <value>İmleç hareketi</value>
+  </data>
+  <data name="GamepadAction_StickScroll" xml:space="preserve">
+    <value>Kaydırma</value>
+  </data>
+  <data name="GamepadAction_StickArrows" xml:space="preserve">
+    <value>Ok tuşları</value>
+  </data>
+  <data name="GamepadAction_StickWasd" xml:space="preserve">
+    <value>WASD tuşları</value>
+  </data>
+  <data name="GamepadAction_DpadArrows" xml:space="preserve">
+    <value>Ok tuşları</value>
+  </data>
+  <data name="GamepadAction_DpadWasd" xml:space="preserve">
+    <value>WASD tuşları</value>
+  </data>
+  <data name="GamepadAction_DpadNumpad" xml:space="preserve">
+    <value>Numpad 8246</value>
+  </data>
+  <data name="GamepadAction_DpadCustom" xml:space="preserve">
+    <value>Özel</value>
+  </data>
+  <data name="GamepadInput_A.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="GamepadInput_B.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="GamepadInput_X.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="GamepadInput_Y.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="GamepadInput_LB.Text" xml:space="preserve">
+    <value>LB</value>
+  </data>
+  <data name="GamepadInput_RB.Text" xml:space="preserve">
+    <value>RB</value>
+  </data>
+  <data name="GamepadInput_LT.Text" xml:space="preserve">
+    <value>LT</value>
+  </data>
+  <data name="GamepadInput_RT.Text" xml:space="preserve">
+    <value>RT</value>
+  </data>
+  <data name="GamepadInput_LS.Text" xml:space="preserve">
+    <value>LS (Bas)</value>
+  </data>
+  <data name="GamepadInput_RS.Text" xml:space="preserve">
+    <value>RS (Bas)</value>
+  </data>
+  <data name="GamepadInput_DPad.Text" xml:space="preserve">
+    <value>D-pad</value>
+  </data>
+  <data name="GamepadInput_DPadUp.Text" xml:space="preserve">
+    <value>Yukarı</value>
+  </data>
+  <data name="GamepadInput_DPadDown.Text" xml:space="preserve">
+    <value>Aşağı</value>
+  </data>
+  <data name="GamepadInput_DPadLeft.Text" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="GamepadInput_DPadRight.Text" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="GamepadInput_LStick.Text" xml:space="preserve">
+    <value>Sol çubuk</value>
+  </data>
+  <data name="GamepadInput_RStick.Text" xml:space="preserve">
+    <value>Sağ çubuk</value>
+  </data>
+  <data name="GamepadGroup_FaceButtons.Text" xml:space="preserve">
+    <value>Yüz Düğmeleri</value>
+  </data>
+  <data name="GamepadGroup_Shoulders.Text" xml:space="preserve">
+    <value>Omuz / Tetik</value>
+  </data>
+  <data name="GamepadGroup_ThumbButtons.Text" xml:space="preserve">
+    <value>Çubuk Basmaları</value>
+  </data>
+  <data name="GamepadGroup_Sticks.Text" xml:space="preserve">
+    <value>Çubuklar / D-Pad</value>
+  </data>
+  <data name="GamepadModifier_Ctrl.Content" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="GamepadModifier_Shift.Content" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="GamepadModifier_Alt.Content" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="GamepadModifier_Win.Content" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="GamepadModifiersLabel.Text" xml:space="preserve">
+    <value>Değiştiriciler</value>
+  </data>
+  <data name="GamepadKeyLabel.Text" xml:space="preserve">
+    <value>Tuş</value>
+  </data>
+  <data name="GamepadMappingChangeKeyTitle" xml:space="preserve">
+    <value>Bir tuş seçin</value>
+  </data>
+  <data name="GamepadMappingChangeComboTitle" xml:space="preserve">
+    <value>Bir tuş kombinasyonu seçin</value>
+  </data>
+  <data name="GamepadKeyPickerOk" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="GamepadKeyPickerCancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="GamepadMappingCopyFromTitle" xml:space="preserve">
+    <value>Başka bir uygulamadan kopyala</value>
+  </data>
+  <data name="GamepadMappingCopyFromHint" xml:space="preserve">
+    <value>Bağlamalarını kopyalamak için mevcut bir profil seçin.</value>
+  </data>
+  <data name="GamepadMappingCopyFromPlaceholder" xml:space="preserve">
+    <value>Uygulamaları filtrelemek için yazın...</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmTitle" xml:space="preserve">
+    <value>Bu profil silinsin mi?</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmBody" xml:space="preserve">
+    <value>"{0}" için özelleştirilmiş bağlamalar kaldırılacak ve yerleşik düzen tekrar devreye girecek.</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmYes" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmNo" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="GamepadMappingSearchBox.PlaceholderText" xml:space="preserve">
+    <value>Uygulamaları ara…</value>
+  </data>
+  <data name="GamepadMappingSortAddOrderDesc" xml:space="preserve">
+    <value>En yeniler önce</value>
+  </data>
+  <data name="GamepadMappingSortAddOrderAsc" xml:space="preserve">
+    <value>En eskiler önce</value>
+  </data>
+  <data name="GamepadMappingSortNameAsc" xml:space="preserve">
+    <value>Ad (A'dan Z'ye)</value>
+  </data>
+  <data name="GamepadMappingSortNameDesc" xml:space="preserve">
+    <value>Ad (Z'den A'ya)</value>
+  </data>
+  <data name="GamepadMappingNoSearchResultHint.Text" xml:space="preserve">
+    <value>Eşleşen uygulama bulunamadı.</value>
+  </data>
+  <data name="GamepadHint_SwitchPage.Text" xml:space="preserve">
+    <value>Sayfa değiştir</value>
+  </data>
+  <data name="GamepadHint_Search.Text" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="GamepadMappingEmptyConfirmTitle" xml:space="preserve">
+    <value>Bağlama olmadan kaydedilsin mi?</value>
+  </data>
+  <data name="GamepadMappingEmptyConfirmBody" xml:space="preserve">
+    <value>All bindings are set to None. The built-in layout will take over for this app.</value>
+  <comment>untranslated:changed</comment></data>
+  <data name="GamepadMappingEmptyRemoveTitle" xml:space="preserve">
+    <value>Bu uygulama için özel eşleme kaldırılsın mı?</value>
+  </data>
+  <data name="GamepadMappingEmptyRemoveBody" xml:space="preserve">
+    <value>All bindings are set to None, which is the same as having no custom mapping. The built-in layout will take over for this app.</value>
+  <comment>untranslated:changed</comment></data>
+  <data name="GamepadMappingEmptyRemoveYes" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="GamepadMappingBlacklistedTitle" xml:space="preserve">
+    <value>Bu uygulama özelleştirilemez</value>
+  </data>
+  <data name="GamepadMappingBlacklistedBody" xml:space="preserve">
+    <value>Bu uygulama özel oyun kumandası eşlemesini desteklemiyor.</value>
+  </data>
+  <data name="GamepadKeyGroup_Letters" xml:space="preserve">
+    <value>Harfler</value>
+  </data>
+  <data name="GamepadKeyGroup_Digits" xml:space="preserve">
+    <value>Rakamlar</value>
+  </data>
+  <data name="GamepadKeyGroup_FunctionKeys" xml:space="preserve">
+    <value>Fonksiyon tuşları</value>
+  </data>
+  <data name="GamepadKeyGroup_EditNav" xml:space="preserve">
+    <value>Düzenle / Gezinme</value>
+  </data>
+  <data name="GamepadKeyGroup_Control" xml:space="preserve">
+    <value>Kontrol</value>
+  </data>
+  <data name="GamepadKeyGroup_Symbols" xml:space="preserve">
+    <value>Semboller</value>
+  </data>
+  <data name="GamepadKeyGroup_Numpad" xml:space="preserve">
+    <value>Numpad</value>
+  </data>
+  <data name="GamepadKeyGroup_Media" xml:space="preserve">
+    <value>Medya</value>
+  </data>
+  <data name="GamepadKeyGroup_Modifiers" xml:space="preserve">
+    <value>Değiştiriciler</value>
+  </data>
+  <data name="Vk_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Vk_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Vk_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Vk_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Vk_PageUp" xml:space="preserve">
+    <value>Page Up</value>
+  </data>
+  <data name="Vk_PageDown" xml:space="preserve">
+    <value>Page Down</value>
+  </data>
+  <data name="Vk_ArrowUp" xml:space="preserve">
+    <value>Yukarı Ok</value>
+  </data>
+  <data name="Vk_ArrowDown" xml:space="preserve">
+    <value>Aşağı Ok</value>
+  </data>
+  <data name="Vk_ArrowLeft" xml:space="preserve">
+    <value>Sol Ok</value>
+  </data>
+  <data name="Vk_ArrowRight" xml:space="preserve">
+    <value>Sağ Ok</value>
+  </data>
+  <data name="Vk_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Vk_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Vk_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Vk_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Vk_Space" xml:space="preserve">
+    <value>Boşluk</value>
+  </data>
+  <data name="Vk_PrintScreen" xml:space="preserve">
+    <value>PrtSc</value>
+  </data>
+  <data name="Vk_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Vk_CapsLock" xml:space="preserve">
+    <value>Caps Lock</value>
+  </data>
+  <data name="Vk_Apps" xml:space="preserve">
+    <value>Uygulamalar</value>
+  </data>
+  <data name="Vk_VolumeUp" xml:space="preserve">
+    <value>Sesi Aç</value>
+  </data>
+  <data name="Vk_VolumeDown" xml:space="preserve">
+    <value>Sesi Kıs</value>
+  </data>
+  <data name="Vk_VolumeMute" xml:space="preserve">
+    <value>Sessiz</value>
+  </data>
+  <data name="Vk_MediaPlayPause" xml:space="preserve">
+    <value>Oynat / Duraklat</value>
+  </data>
+  <data name="Vk_MediaStop" xml:space="preserve">
+    <value>Durdur</value>
+  </data>
+  <data name="Vk_MediaNext" xml:space="preserve">
+    <value>Sonraki Parça</value>
+  </data>
+  <data name="Vk_MediaPrev" xml:space="preserve">
+    <value>Önceki Parça</value>
+  </data>
+  <data name="Vk_BrowserBack" xml:space="preserve">
+    <value>Tarayıcı Geri</value>
+  </data>
+  <data name="Vk_BrowserForward" xml:space="preserve">
+    <value>Tarayıcı İleri</value>
+  </data>
+  <data name="Vk_BrowserRefresh" xml:space="preserve">
+    <value>Tarayıcı Yenile</value>
+  </data>
+  <data name="Vk_BrowserHome" xml:space="preserve">
+    <value>Tarayıcı Ana Sayfa</value>
+  </data>
+  <data name="Vk_LaunchMail" xml:space="preserve">
+    <value>Postayı Aç</value>
+  </data>
+  <data name="Vk_LaunchMediaSelect" xml:space="preserve">
+    <value>Medyayı Aç</value>
+  </data>
+  <data name="Vk_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Vk_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Vk_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Vk_LShift" xml:space="preserve">
+    <value>Sol Shift</value>
+  </data>
+  <data name="Vk_RShift" xml:space="preserve">
+    <value>Sağ Shift</value>
+  </data>
+  <data name="Vk_LCtrl" xml:space="preserve">
+    <value>Sol Ctrl</value>
+  </data>
+  <data name="Vk_RCtrl" xml:space="preserve">
+    <value>Sağ Ctrl</value>
+  </data>
+  <data name="Vk_LAlt" xml:space="preserve">
+    <value>Sol Alt</value>
+  </data>
+  <data name="Vk_RAlt" xml:space="preserve">
+    <value>Sağ Alt</value>
+  </data>
+  <data name="Vk_LWin" xml:space="preserve">
+    <value>Sol Win</value>
+  </data>
+  <data name="Vk_RWin" xml:space="preserve">
+    <value>Sağ Win</value>
+  </data>
+  <data name="GamepadHint_DeleteProfile.Text" xml:space="preserve">
+    <value>Bu profili sil</value>
+  </data>
+  <data name="GamepadHint_SaveReturn.Text" xml:space="preserve">
+    <value>Kaydet ve dön</value>
+  </data>
+  <data name="AdvancedSection_Display.Text" xml:space="preserve">
+    <value>Arayüz Görünümü</value>
+  </data>
+  <data name="LanguageSetting_Title.Text" xml:space="preserve">
+    <value>Görüntüleme Dili</value>
+  </data>
+  <data name="LanguageSetting_Description.Text" xml:space="preserve">
+    <value>Arayüz dilini seçin.</value>
+  </data>
+  <data name="LanguageItem_SystemDefault" xml:space="preserve">
+    <value>Sistem varsayılanı</value>
+  </data>
+  <data name="LanguageItem_CommunitySuffix" xml:space="preserve">
+    <value>(Topluluk)</value>
+  </data>
+  <data name="LanguageItem_CommunityWithTranslator" xml:space="preserve">
+    <value>(Topluluk - {0})</value>
+  </data>
+  <data name="LanguageRestartDialog_Title" xml:space="preserve">
+    <value>Yeniden Başlatma Gerekli</value>
+  </data>
+  <data name="LanguageRestartDialog_Body" xml:space="preserve">
+    <value>Dil değişikliği yeniden başlatmanın ardından geçerli olur. Şimdi yeniden başlatılsın mı?</value>
+  </data>
+  <data name="LanguageRestartDialog_Restart" xml:space="preserve">
+    <value>Şimdi Yeniden Başlat</value>
+  </data>
+  <data name="LanguageRestartDialog_Later" xml:space="preserve">
+    <value>Sonra</value>
+  </data>
+  <data name="ManageLanguagesSetting_Title.Text" xml:space="preserve">
+    <value>Topluluk Dilleri</value>
+  </data>
+  <data name="ManageLanguagesSetting_Description.Text" xml:space="preserve">
+    <value>Topluluk tarafından sağlanan çevirilere göz atın, indirin ve güncelleyin.</value>
+  </data>
+  <data name="ManageLanguagesButton.Content" xml:space="preserve">
+    <value>Yönet</value>
+  </data>
+  <data name="ManageLanguages_Title" xml:space="preserve">
+    <value>Topluluk Dilleri</value>
+  </data>
+  <data name="ManageLanguages_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="ManageLanguages_Loading" xml:space="preserve">
+    <value>Kullanılabilir diller yükleniyor...</value>
+  </data>
+  <data name="ManageLanguages_Downloading" xml:space="preserve">
+    <value>İndiriliyor...</value>
+  </data>
+  <data name="ManageLanguages_Error" xml:space="preserve">
+    <value>Çeviri deposuna bağlanılamadı. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="ManageLanguages_Empty" xml:space="preserve">
+    <value>Bu sürüm için henüz hiçbir topluluk dili mevcut değil.</value>
+  </data>
+  <data name="ManageLanguages_OfflineNotice" xml:space="preserve">
+    <value>Offline. You can remove installed languages, but downloads and updates are unavailable.</value>
+  <comment>untranslated:changed</comment></data>
+  <data name="ManageLanguages_SelectHint" xml:space="preserve">
+    <value>Ayrıntıları görmek için bir dil seçin.</value>
+  </data>
+  <data name="ManageLanguages_Translators" xml:space="preserve">
+    <value>Çevirmenler: {0}</value>
+  </data>
+  <data name="ManageLanguages_TranslatorSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="ManageLanguages_Status_NotInstalled" xml:space="preserve">
+    <value>Yüklü değil</value>
+  </data>
+  <data name="ManageLanguages_Status_Installed" xml:space="preserve">
+    <value>Yüklü</value>
+  </data>
+  <data name="ManageLanguages_Status_UpdateAvailable" xml:space="preserve">
+    <value>Güncelleme mevcut</value>
+  </data>
+  <data name="ManageLanguages_Action_Install" xml:space="preserve">
+    <value>İndir ve yükle</value>
+  </data>
+  <data name="ManageLanguages_Action_Update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="ManageLanguages_Action_Uninstall" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="ManageLanguages_Revision" xml:space="preserve">
+    <value>Revizyon {0}</value>
+  </data>
+  <data name="ManageLanguages_Revision_Installed" xml:space="preserve">
+    <value>Revizyon {0} (yüklü)</value>
+  </data>
+  <data name="ManageLanguages_Revision_UpdateAvailable" xml:space="preserve">
+    <value>Revizyon {0} (yüklü {1})</value>
+  </data>
+  <data name="ManageLanguages_Result_Downloaded" xml:space="preserve">
+    <value>Başarıyla yüklendi.</value>
+  </data>
+  <data name="ManageLanguages_Result_Removed" xml:space="preserve">
+    <value>Başarıyla kaldırıldı.</value>
+  </data>
+  <data name="ManageLanguages_Result_Failed" xml:space="preserve">
+    <value>Bir şeyler ters gitti. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.</value>
+  </data>
+  <data name="AdvancedSection_Sound.Text" xml:space="preserve">
+    <value>Arayüz Sesi</value>
+  </data>
+  <data name="NavigationSoundsSetting_Title.Text" xml:space="preserve">
+    <value>Gezinme Sesleri</value>
+  </data>
+  <data name="NavigationSoundsSetting_Description.Text" xml:space="preserve">
+    <value>Gezinirken sesler çal.</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_Header.Text" xml:space="preserve">
+    <value>Aşağıdaki uygulamalar Nekomata'nın PhantomPaw'unu kullanıyor. Lütfen bunları kapatın ve güncellemeyi tekrar deneyin:</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_Hint.Text" xml:space="preserve">
+    <value>Uygulamaları kapatın ve Tekrar Dene'ye basın veya daha sonra güncellemek için İptal'e basın.</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_RetryButton" xml:space="preserve">
+    <value>Tekrar Dene</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_CancelButton" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="AboutSection_ReleaseInfo.Text" xml:space="preserve">
+    <value>Sürüm Bilgisi</value>
+  </data>
+  <data name="Label_CommitHash.Text" xml:space="preserve">
+    <value>Commit:</value>
+  </data>
+  <data name="Label_BuiltAt.Text" xml:space="preserve">
+    <value>Derleme zamanı:</value>
+  </data>
+  <data name="Label_Source.Text" xml:space="preserve">
+    <value>Resmi depo</value>
+  </data>
+  <data name="CertDetailsButton.Content" xml:space="preserve">
+    <value>Ayrıntılar</value>
+  </data>
+  <data name="CertDetailsDialog_Title" xml:space="preserve">
+    <value>Sertifika Ayrıntıları</value>
+  </data>
+  <data name="CertDetailsDialog_Body.Text" xml:space="preserve">
+    <value>Bu {OmniConsole} kopyası aşağıdaki sertifika ile imzalanmıştır. SHA-256 parmak izini resmi depodaki AUTHENTICITY.md dosyasında yayınlanan değerle karşılaştırın. Değerler eşleşmiyorsa, bu yapı resmi kaynaktan değildir. OmniCharm widget'ı aynı sertifika ile imzalanmıştır; paket bazında tam doğrulama için AUTHENTICITY.md dosyasına bakın.</value>
+  </data>
+  <data name="CertDetailsDialog_OpenAuthenticity.Content" xml:space="preserve">
+    <value>Yayınlanan parmak izini görmek için AUTHENTICITY.md dosyasını aç</value>
+  </data>
+  <data name="CertDetailsDialog_CopyButton" xml:space="preserve">
+    <value>Parmak İzini Kopyala</value>
+  </data>
+  <data name="CertDetailsDialog_CloseButton" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="CertDetailsDialog_Copied.Text" xml:space="preserve">
+    <value>Parmak izi panoya kopyalandı.</value>
+  </data>
+  <data name="OpenCommitOnGitHubAccessibleName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Bu commit'i GitHub'da aç</value>
+  </data>
+  <data name="OpenRepoOnGitHubAccessibleName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Depoyu GitHub'da aç</value>
+  </data>
+</root>

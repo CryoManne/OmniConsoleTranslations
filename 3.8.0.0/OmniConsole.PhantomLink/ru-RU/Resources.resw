@@ -138,7 +138,7 @@
   </data>
   -->
   <data name="Widget_SteamInGameOverlay_Title.Text" xml:space="preserve">
-    <value>Удерживайте &#xEDE3;, чтобы открыть оверлей Steam</value>
+    <value>Использовать &#xEDE3;, чтобы открыть оверлей Steam</value>
   </data>
   <data name="Widget_SteamInGameOverlay_On.Content" xml:space="preserve">
     <value>Вкл.</value>
@@ -147,7 +147,7 @@
     <value>Откл.</value>
   </data>
   <data name="Widget_SteamInGameOverlay_PlatformNote.Text" xml:space="preserve">
-    <value>Доступно только если в качестве платформы по умолчанию установлено Steam Big Picture.</value>
+    <value>Доступно только если в качестве платформы по умолчанию установлен Steam Big Picture.</value>
   </data>
   <data name="Widget_GamepadMappingMode_Title.Text" xml:space="preserve">
     <value>Режим Nekomata</value>
@@ -159,7 +159,7 @@
     <value>Вкл.</value>
   </data>
   <data name="Widget_ControllerLayoutPreset_Title.Text" xml:space="preserve">
-    <value>Раскаладка контроллера</value>
+    <value>Раскладка кнопок геймпада</value>
   </data>
   <data name="Widget_ControllerLayoutPreset_OmniNav.Content" xml:space="preserve">
     <value>OmniNav</value>
@@ -183,7 +183,7 @@
     <value>Текущее: —</value>
   </data>
   <data name="Widget_CustomizeApp.Content" xml:space="preserve">
-    <value>Настроить переназначение кнопок геймпада для данного приложения…</value>
+    <value>Настроить привязки для данного приложения…</value>
   </data>
   <data name="Widget_CustomizeApp_ElevatedNote.Text" xml:space="preserve">
     <value>Приложение запущено с правами администратора. Переназначение кнопок геймпада недоступно.</value>

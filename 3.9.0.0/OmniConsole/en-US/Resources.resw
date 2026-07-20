@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SettingsTitle.Text" xml:space="preserve">
+    <value>{OmniConsole} Settings</value>
+  </data>
+  <data name="SettingsDescription" xml:space="preserve">
+    <value>Default platform: {0}</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>Launching {0}...</value>
+  </data>
+  <data name="LaunchSuccess" xml:space="preserve">
+    <value>{0} launched</value>
+  </data>
+  <data name="LaunchSlowWarningText.Text" xml:space="preserve">
+    <value>The platform is taking longer than expected and may still be loading. Please wait. If needed, press and hold the Xbox button to open Task View and check if the platform is running.</value>
+  </data>
+  <data name="LaunchTimeout" xml:space="preserve">
+    <value>Launch timed out. Please verify {0} is running normally.</value>
+  </data>
+  <data name="LaunchFailed" xml:space="preserve">
+    <value>Unable to launch {0}. Please ensure the app can be launched and check its installation or settings.</value>
+  </data>
+  <data name="OpenSettingsButton.Content" xml:space="preserve">
+    <value>Open Settings</value>
+  </data>
+  <data name="ReturnToDesktopButton.Content" xml:space="preserve">
+    <value>Return to Desktop</value>
+  </data>
+  <data name="FseNotAvailable" xml:space="preserve">
+    <value>Xbox Mode (FSE) is not enabled. Please enable it first, then manually restart {OmniConsole}.</value>
+  </data>
+  <data name="FseHandheldRequired" xml:space="preserve">
+    <value>Limited PC Xbox Mode (FSE) detected, but {OmniConsole} requires the Full Handheld edition. Please enable it with Xbox Full Screen Experience Tool, then manually restart {OmniConsole}.</value>
+  </data>
+  <data name="FseHomeAppNotSet" xml:space="preserve">
+    <value>Please go to Windows Settings → Gaming → Xbox mode (FSE) and select {OmniConsole} from the “Choose home app” dropdown, then manually restart {OmniConsole}.</value>
+  </data>
+  <data name="EnableFseButton.Content" xml:space="preserve">
+    <value>Enable Xbox Mode (FSE)</value>
+  </data>
+  <data name="OpenFseSettingsButton.Content" xml:space="preserve">
+    <value>Set {OmniConsole} as Home App</value>
+  </data>
+  <data name="Platform_SteamBigPicture" xml:space="preserve">
+    <value>Steam Big Picture</value>
+  </data>
+  <data name="Platform_XboxApp" xml:space="preserve">
+    <value>Xbox App</value>
+  </data>
+  <data name="Platform_EpicGames" xml:space="preserve">
+    <value>Epic Games Store</value>
+  </data>
+  <data name="Platform_ArmouryCrateSE" xml:space="preserve">
+    <value>Armoury Crate SE</value>
+  </data>
+  <data name="Platform_PlayniteFullscreen" xml:space="preserve">
+    <value>Playnite Fullscreen</value>
+  </data>
+  <data name="AppDisplayName" xml:space="preserve">
+    <value>OmniConsole</value>
+  </data>
+  <data name="AppDescription" xml:space="preserve">
+    <value>Custom Windows 11 Xbox Mode (FSE) Home shell for gaming PCs and handhelds.</value>
+  </data>
+  <data name="AppExtensionDescription" xml:space="preserve">
+    <value>Custom Home Shell for Windows Xbox Mode (FSE).</value>
+  </data>
+  <data name="SettingsAppDisplayName" xml:space="preserve">
+    <value>OmniConsole Settings</value>
+  </data>
+  <data name="SettingsAppDescription" xml:space="preserve">
+    <value>Configure default gaming platform, Game Bar behavior, and custom launch targets.</value>
+  </data>
+  <data name="ResetGameBarButton.Content" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="Nav_General.Content" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Nav_Troubleshoot.Content" xml:space="preserve">
+    <value>Troubleshoot</value>
+  </data>
+  <data name="TroubleshootDescription.Text" xml:space="preserve">
+    <value>Diagnose and fix common issues.</value>
+  </data>
+  <data name="TroubleshootTitle.Text" xml:space="preserve">
+    <value>Troubleshoot</value>
+  </data>
+  <data name="TroubleshootSection_Fse.Text" xml:space="preserve">
+    <value>Xbox Mode (FSE)</value>
+  </data>
+  <data name="ResetGameBarSetting_Title.Text" xml:space="preserve">
+    <value>Restart Game Bar &amp; Enter Xbox Mode (FSE)</value>
+  </data>
+  <data name="ResetGameBarSetting_Description.Text" xml:space="preserve">
+    <value>Restart Game Bar to fix issues such as Game Bar not opening, or the “Restart for better performance” dialog not appearing when entering Xbox Mode (FSE).</value>
+  </data>
+  <data name="ResetGameBarSetting_Note.Text" xml:space="preserve">
+    <value>On some Windows versions, a confirmation dialog may still appear.</value>
+  </data>
+  <data name="UseGameBarLibrarySwitch.OffContent" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="UseGameBarLibrarySwitch.OnContent" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Nav_Advanced.Content" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="AdvancedTitle.Text" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="AdvancedDescription.Text" xml:space="preserve">
+    <value>Fine-tune system behavior and integration options.</value>
+  </data>
+  <data name="AdvancedSection_Steam.Text" xml:space="preserve">
+    <value>Steam</value>
+  </data>
+  <data name="AdvancedSection_Nekomata.Text" xml:space="preserve">
+    <value>Nekomata</value>
+  </data>
+  <data name="PhantomKeySetting_Title.Text" xml:space="preserve">
+    <value>Press &#xEECA; to Open Steam’s Menus in Steam Big Picture Mode</value>
+  </data>
+  <data name="PhantomKeySetting_Description.Text" xml:space="preserve">
+    <value>Short press &#xEECA; to open Steam Menu, long press &#xEECA; to open Quick Access Menu.</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_Title.Text" xml:space="preserve">
+    <value>Long Press &#xEDE3; to Open Steam In-Game Overlay</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_Description.Text" xml:space="preserve">
+    <value>Requires Steam In-Game Overlay to be enabled.</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_Note.Text" xml:space="preserve">
+    <value>Only available when the default platform is set to Steam Big Picture.</value>
+  </data>
+  <data name="SteamInGameOverlaySetting_ModifierNote.Text" xml:space="preserve">
+    <value>Long press &#xEDE3; to close the overlay and prevent modifier keys (e.g., Shift, Ctrl, or Alt) from getting stuck in-game.
+Alternatively, change the shortcut to a non-modifier key in Steam Settings &gt; In Game &gt; Overlay shortcut key(s).</value>
+  </data>
+  <data name="GamepadMappingModeSetting_Title.Text" xml:space="preserve">
+    <value>Nekomata Mode</value>
+  </data>
+  <data name="GamepadMappingModeSetting_Description.Text" xml:space="preserve">
+    <value>Let Nekomata turn your gamepad into keyboard and mouse, and tailor per-app settings on the “Nekomata” page.</value>
+  </data>
+  <data name="GamepadMappingModeSetting_Note.Text" xml:space="preserve">
+    <value>Built-in mapping covers Edge, Chrome, Firefox, Opera, Brave, Epic Games Store, Playnite Desktop, File Explorer, Windows File Picker, Windows Installer, Steam, and Discord.</value>
+  </data>
+  <data name="GamepadMappingModeSetting_BuiltInMappingNote.Text" xml:space="preserve">
+    <value>Disabled: this console has the manufacturer’s built-in gamepad mapping.</value>
+  </data>
+  <data name="ControllerLayoutPresetSetting_Title.Text" xml:space="preserve">
+    <value>Controller Layout Preset</value>
+  </data>
+  <data name="ControllerLayoutPresetSetting_Description.Text" xml:space="preserve">
+    <value>Set the default layout for built-in mapping and new profiles. OmniNav: left stick moves the cursor; Classic: right stick moves the cursor.</value>
+  </data>
+  <data name="ControllerLayoutPresetItem_OmniNav" xml:space="preserve">
+    <value>OmniNav</value>
+  </data>
+  <data name="ControllerLayoutPresetItem_Classic" xml:space="preserve">
+    <value>Classic</value>
+  </data>
+  <data name="CursorSpeedSetting_Title.Text" xml:space="preserve">
+    <value>Cursor Speed</value>
+  </data>
+  <data name="CursorSpeedSetting_Description.Text" xml:space="preserve">
+    <value>Scale cursor movement speed relative to the default (100%).</value>
+  </data>
+  <data name="BackgroundMaterialSetting_Title.Text" xml:space="preserve">
+    <value>Background Material</value>
+  </data>
+  <data name="BackgroundMaterialSetting_Description.Text" xml:space="preserve">
+    <value>Choose the background material.</value>
+  </data>
+  <data name="BackgroundMaterialSetting_Note.Text" xml:space="preserve">
+    <value>Requires Windows transparency effects to be enabled.</value>
+  </data>
+  <data name="BackgroundMaterialItem_PhantomClassic" xml:space="preserve">
+    <value>Phantom Classic</value>
+  </data>
+  <data name="BackgroundMaterialItem_PhantomGlass" xml:space="preserve">
+    <value>Phantom Glass</value>
+  </data>
+  <data name="BackgroundMaterialItem_PhantomGlassDeep" xml:space="preserve">
+    <value>Phantom Glass Deep</value>
+  </data>
+  <data name="AdvancedSection_GameBar.Text" xml:space="preserve">
+    <value>Game Bar</value>
+  </data>
+  <data name="GameBarLibrarySetting_Title.Text" xml:space="preserve">
+    <value>Library Button Opens Settings</value>
+  </data>
+  <data name="GameBarLibrarySetting_Description.Text" xml:space="preserve">
+    <value>Choose the action for the “Library” button in Game Bar.</value>
+  </data>
+  <data name="PassthroughSetting_Title.Text" xml:space="preserve">
+    <value>Direct to Platform</value>
+  </data>
+  <data name="PassthroughSetting_Description.Text" xml:space="preserve">
+    <value>Navigate “Home” and “Library” directly to the default platform instead of {OmniConsole}.</value>
+  </data>
+  <data name="PassthroughSetting_Note.Text" xml:space="preserve">
+    <value>Currently only supports Xbox App. “Library” button setting above takes priority.</value>
+  </data>
+  <data name="EnablePassthroughSwitch.OffContent" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="EnablePassthroughSwitch.OnContent" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="GamepadHint_Select.Text" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="GamepadHint_Exit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Nav_SystemPlatforms.Content" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Nav_UserPlatforms.Content" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="AddPlatformText.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="GamepadHint_SwitchTab.Text" xml:space="preserve">
+    <value>Switch tab</value>
+  </data>
+  <data name="GamepadHint_Add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="GamepadHint_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="GamepadHint_Launch.Text" xml:space="preserve">
+    <value>Set &amp; launch</value>
+  </data>
+  <data name="PlatformDialog_AddTitle" xml:space="preserve">
+    <value>Add Platform</value>
+  </data>
+  <data name="PlatformDialog_EditTitle" xml:space="preserve">
+    <value>Edit Platform</value>
+  </data>
+  <data name="PlatformDialog_NameLabel" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PlatformDialog_NamePlaceholder" xml:space="preserve">
+    <value>e.g., My Gaming Platform</value>
+  </data>
+  <data name="PlatformDialog_LaunchTypeLabel" xml:space="preserve">
+    <value>Launch Type</value>
+  </data>
+  <data name="PlatformDialog_Executable" xml:space="preserve">
+    <value>Executable</value>
+  </data>
+  <data name="PlatformDialog_UriLabel" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="PlatformDialog_UriPlaceholder" xml:space="preserve">
+    <value>e.g., steam://open/bigpicture</value>
+  </data>
+  <data name="PlatformDialog_PathLabel" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="PlatformDialog_PathPlaceholder" xml:space="preserve">
+    <value>e.g., C:\Program Files (x86)\Steam\steam.exe</value>
+  </data>
+  <data name="PlatformDialog_IconLabel" xml:space="preserve">
+    <value>Card Cover (optional)</value>
+  </data>
+  <data name="PlatformDialog_IconHint" xml:space="preserve">
+    <value>Recommended: 800 x 560 px (10:7)</value>
+  </data>
+  <data name="PlatformDialog_ConfigWarning" xml:space="preserve">
+    <value>Caution: Incorrect configuration may cause platform launch failure or unexpected behavior.</value>
+  </data>
+  <data name="PlatformDialog_ValidationNameTooLong" xml:space="preserve">
+    <value>Name must not exceed 50 characters.</value>
+  </data>
+  <data name="PlatformDialog_ValidationNameInvalid" xml:space="preserve">
+    <value>Name contains invalid characters.</value>
+  </data>
+  <data name="PlatformDialog_ValidationTargetEmpty" xml:space="preserve">
+    <value>This field is required.</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriInvalid" xml:space="preserve">
+    <value>Invalid URI format. Example: steam://open/bigpicture</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriNotSupported" xml:space="preserve">
+    <value>No application is registered to handle this URI scheme.</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriSelf" xml:space="preserve">
+    <value>Cannot add {OmniConsole} itself as a platform; this would cause a restart loop.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathInvalid" xml:space="preserve">
+    <value>Invalid file path. Example: C:\Program Files (x86)\Steam\steam.exe</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathConsoleApp" xml:space="preserve">
+    <value>Console applications are not supported. They may cause Xbox Mode (FSE) to restart in a loop.</value>
+  </data>
+  <data name="PlatformDialog_ValidationArgsInvalid" xml:space="preserve">
+    <value>Arguments contain potentially unsafe characters.</value>
+  </data>
+  <data name="CustomPlatform_ConsentTitle.Text" xml:space="preserve">
+    <value>Custom Platform Support (Experimental)</value>
+  </data>
+  <data name="CustomPlatform_ConsentBody.Text" xml:space="preserve">
+    <value>This feature allows you to add custom platform launch configurations. Please read the following carefully before proceeding:
+
+- The software is provided “as-is”, without warranty of any kind, express or implied; this feature is experimental and provided with no assurances whatsoever.
+- Incorrectly configured platforms may fail to launch, which could crash the Xbox Mode (FSE) environment or even require an app reset to recover.
+- The developer assumes no responsibility or liability for any damage, data loss, or issues arising from the use of this program or custom platform configurations.
+- You are solely responsible for ensuring the safety, correctness, and legitimacy of all configurations you create.
+
+By clicking “I Understand and Accept”, you acknowledge these risks and agree to use this feature entirely at your own discretion and responsibility.</value>
+  </data>
+  <data name="CustomPlatform_ConsentAccept.Content" xml:space="preserve">
+    <value>I Understand and Accept</value>
+  </data>
+  <data name="PlatformDialog_ArgsLabel" xml:space="preserve">
+    <value>Arguments (optional)</value>
+  </data>
+  <data name="PlatformDialog_ArgsPlaceholder" xml:space="preserve">
+    <value>e.g., -bigpicture</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathNotExe" xml:space="preserve">
+    <value>Only executable files (.exe) are supported.</value>
+  </data>
+  <data name="PlatformDialog_ValidationArgsTooLong" xml:space="preserve">
+    <value>Arguments must not exceed 500 characters.</value>
+  </data>
+  <data name="PlatformNotAvailable" xml:space="preserve">
+    <value>{0} is not available. Please verify it is installed or choose a different platform.</value>
+  </data>
+  <data name="PlatformDialog_ValidationUriTooLong" xml:space="preserve">
+    <value>URI must not exceed 2048 characters.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPathTooLong" xml:space="preserve">
+    <value>Path must not exceed 260 characters.</value>
+  </data>
+  <data name="PlatformDialog_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="PlatformDialog_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PlatformDialog_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="PlatformDialog_PackagedApp" xml:space="preserve">
+    <value>Packaged App (MSIX / APPX)</value>
+  </data>
+  <data name="PlatformDialog_PackagedAppLabel" xml:space="preserve">
+    <value>Package Family Name</value>
+  </data>
+  <data name="PlatformDialog_PackagedAppPlaceholder" xml:space="preserve">
+    <value>Type to search installed packages...</value>
+  </data>
+  <data name="PlatformDialog_PackagedAppWarning" xml:space="preserve">
+    <value>Caution: Not all packages support launching (e.g., extensions or background services). Ensure you select an app with a “user interface.”</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppEmpty" xml:space="preserve">
+    <value>Please select a packaged app.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppSelf" xml:space="preserve">
+    <value>Cannot add {OmniConsole} itself as a platform.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppGameBar" xml:space="preserve">
+    <value>Cannot add Game Bar as a platform.</value>
+  </data>
+  <data name="PlatformDialog_ValidationPackagedAppNotAllowed" xml:space="preserve">
+    <value>This package cannot be used as a platform (e.g., it may be an extension, service, or runtime component).</value>
+  </data>
+  <data name="CardMenu_Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="ImportPlatformButton.Content" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ImportPlatformDialog_Title" xml:space="preserve">
+    <value>Import Platform</value>
+  </data>
+  <data name="ImportPlatformDialog_Warning" xml:space="preserve">
+    <value>Caution: Only import configurations from sources you trust. Malicious configurations could launch harmful programs.</value>
+  </data>
+  <data name="ImportPlatformDialog_Placeholder" xml:space="preserve">
+    <value>Paste JSON here... For example:
+{
+  "shell": "OmniConsole",
+  "displayName": "Steam Big Picture",
+  "launchType": "ProtocolUri",
+  "launchTarget": "steam://open/bigpicture"
+}</value>
+  </data>
+  <data name="ImportPlatformDialog_Primary" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Import_Error_EmptyJson" xml:space="preserve">
+    <value>Please paste a JSON string.</value>
+  </data>
+  <data name="Import_Error_InvalidJson" xml:space="preserve">
+    <value>The text is not valid JSON.</value>
+  </data>
+  <data name="Import_Error_MissingName" xml:space="preserve">
+    <value>Display name is required.</value>
+  </data>
+  <data name="Import_Error_InvalidLaunchType" xml:space="preserve">
+    <value>Unknown launch type.</value>
+  </data>
+  <data name="Import_Error_MissingTarget" xml:space="preserve">
+    <value>Launch target is required.</value>
+  </data>
+  <data name="Import_Error_InvalidCharacters" xml:space="preserve">
+    <value>Content contains invalid characters.</value>
+  </data>
+  <data name="Import_Error_InvalidUri" xml:space="preserve">
+    <value>Invalid protocol URI format.</value>
+  </data>
+  <data name="Import_Error_UriNotSupported" xml:space="preserve">
+    <value>No application is registered to handle this URI scheme.</value>
+  </data>
+  <data name="Import_Error_UriSelf" xml:space="preserve">
+    <value>Cannot import {OmniConsole} itself as a platform.</value>
+  </data>
+  <data name="Import_Error_InvalidExecutable" xml:space="preserve">
+    <value>Executable path must end with .exe.</value>
+  </data>
+  <data name="Import_Error_ConsoleApp" xml:space="preserve">
+    <value>Console applications are not supported.</value>
+  </data>
+  <data name="Import_Error_PackageNotAllowed" xml:space="preserve">
+    <value>This package cannot be used as a platform (e.g., it may be an extension, service, or runtime component).</value>
+  </data>
+  <data name="ExportSuccessTeachingTip.Title" xml:space="preserve">
+    <value>Copied!</value>
+  </data>
+  <data name="ExportSuccessTeachingTip.Subtitle" xml:space="preserve">
+    <value>Platform configuration copied to clipboard.</value>
+  </data>
+  <data name="FilePickerDialog_Title" xml:space="preserve">
+    <value>Select a file</value>
+  </data>
+  <data name="FilePickerDialog_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="FilePickerDialog_EmptyFolder" xml:space="preserve">
+    <value>This folder is empty</value>
+  </data>
+  <data name="FilePickerDialog_AccessDenied" xml:space="preserve">
+    <value>Access denied</value>
+  </data>
+  <data name="FilePickerDialog_Desktop" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="FilePickerDialog_Downloads" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="FilePickerDialog_Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="FilePickerDialog_Pictures" xml:space="preserve">
+    <value>Pictures</value>
+  </data>
+  <data name="FilePickerDialog_Music" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="FilePickerDialog_Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="FilePickerDialog_FilterExe" xml:space="preserve">
+    <value>Executables (*.exe)</value>
+  </data>
+  <data name="FilePickerDialog_FilterImage" xml:space="preserve">
+    <value>Images (*.png, *.jpg, *.jpeg, *.bmp)</value>
+  </data>
+  <data name="FilePickerDialog_NavigateUp" xml:space="preserve">
+    <value>Up one level</value>
+  </data>
+  <data name="FilePickerDialog_LegacyPicker" xml:space="preserve">
+    <value>Browse (Windows)</value>
+  </data>
+  <data name="AdvancedSection_Updates.Text" xml:space="preserve">
+    <value>Updates</value>
+  </data>
+  <data name="AutoUpdateCheck_Title.Text" xml:space="preserve">
+    <value>Automatic Update Check</value>
+  </data>
+  <data name="AutoUpdateCheck_Description.Text" xml:space="preserve">
+    <value>Check for new versions when opening settings.</value>
+  </data>
+  <data name="VersionInfo_Title.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="CheckForUpdatesButton.Content" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="DownloadInstallButton.Content" xml:space="preserve">
+    <value>Download &amp; Install</value>
+  </data>
+  <data name="UpdateCheck_NewVersion_Subtitle" xml:space="preserve">
+    <value>{OmniConsole} v{0} is available.</value>
+  </data>
+  <data name="UpdateCheck_UpToDate_Subtitle" xml:space="preserve">
+    <value>{OmniConsole} is on the latest version.</value>
+  </data>
+  <data name="UpdateCheck_Failed_Subtitle" xml:space="preserve">
+    <value>Please check your internet connection and try again.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar" xml:space="preserve">
+    <value>{OmniConsole} v{0} is available.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar_Launch_GameBar" xml:space="preserve">
+    <value>{OmniConsole} v{0} is available. Open {OmniConsole} Settings from Game Bar &gt; Library, then go to ☰ &gt; Advanced to download and install.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar_Launch_StartMenu" xml:space="preserve">
+    <value>{OmniConsole} v{0} is available. Open {OmniConsole} Settings from Start &gt; All apps, then go to ☰ &gt; Advanced to download and install.</value>
+  </data>
+  <data name="UpdateAvailable_InfoBar_Settings" xml:space="preserve">
+    <value>{OmniConsole} v{0} is available. Go to ☰ &gt; Advanced to download and install.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Title" xml:space="preserve">
+    <value>OmniCharm Widget is available.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Message" xml:space="preserve">
+    <value>Quick-access Game Bar widget to toggle {OmniConsole} features in-game and set up Nekomata per-app gamepad mapping. Go to ☰ &gt; Advanced to download and install.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Launch_GameBar" xml:space="preserve">
+    <value>OmniCharm Widget is available. Open {OmniConsole} Settings from Game Bar &gt; Library, then go to ☰ &gt; Advanced to download and install.</value>
+  </data>
+  <data name="UpdateInfoBar_MissingPhantomLink_Launch_StartMenu" xml:space="preserve">
+    <value>OmniCharm Widget is available. Open {OmniConsole} Settings from Start &gt; All apps, then go to ☰ &gt; Advanced to download and install.</value>
+  </data>
+  <data name="UpdateCheck_Checking" xml:space="preserve">
+    <value>Checking...</value>
+  </data>
+  <data name="UpdateDownload_InProgress" xml:space="preserve">
+    <value>Downloading...</value>
+  </data>
+  <data name="UpdateDownload_Installing" xml:space="preserve">
+    <value>Download complete. Installing...</value>
+  </data>
+  <data name="UpdateDownload_Failed" xml:space="preserve">
+    <value>Download failed. Please try again.</value>
+  </data>
+  <data name="UpdateProgressDialog_Title" xml:space="preserve">
+    <value>Updating {OmniConsole}</value>
+  </data>
+  <data name="UpdateProgressDialog_Hint" xml:space="preserve">
+    <value>Do not close the app or shut down the console until the update finishes.</value>
+  </data>
+  <data name="UpdateProgress_Phase1Download" xml:space="preserve">
+    <value>Downloading OmniCharm widget (1 of 2)...</value>
+  </data>
+  <data name="UpdateProgress_Phase1Install" xml:space="preserve">
+    <value>Installing OmniCharm widget (1 of 2)...</value>
+  </data>
+  <data name="UpdateProgress_Phase2Download" xml:space="preserve">
+    <value>Downloading {OmniConsole} (2 of 2)...</value>
+  </data>
+  <data name="UpdateProgress_Phase2Install" xml:space="preserve">
+    <value>Installing {OmniConsole} (2 of 2). The app will restart...</value>
+  </data>
+  <data name="UpdateProgress_LanguageSync" xml:space="preserve">
+    <value>Updating community language files...</value>
+  </data>
+  <data name="ResumeUpdateDialog_Title" xml:space="preserve">
+    <value>Resume update?</value>
+  </data>
+  <data name="ResumeUpdateDialog_Content" xml:space="preserve">
+    <value>The previous update to v{0} did not finish. Resume now to keep the OmniCharm widget and {OmniConsole} on the same version.</value>
+  </data>
+  <data name="ResumeUpdateDialog_Resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="ResumeUpdateDialog_Later" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="DeveloperMode_Warning" xml:space="preserve">
+    <value>Developer Mode is off. Enable it before updating.</value>
+  </data>
+  <data name="DeveloperMode_OpenSettings.Content" xml:space="preserve">
+    <value>Open Settings</value>
+  </data>
+  <data name="Nav_About.Content" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutTitle.Text" xml:space="preserve">
+    <value>About {OmniConsole}</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>Version and environment details to help report upgrade or compatibility issues.</value>
+  </data>
+  <data name="AboutSection_Suite.Text" xml:space="preserve">
+    <value>{OmniConsole} Suite</value>
+  </data>
+  <data name="AboutSection_Xfset.Text" xml:space="preserve">
+    <value>XFSET (Xbox Full Screen Experience Tool)</value>
+  </data>
+  <data name="AboutSection_Hardware.Text" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="AboutSection_PhantomKey.Text" xml:space="preserve">
+    <value>PhantomKey Health</value>
+  </data>
+  <data name="AboutSection_Actions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="AboutActions_Title.Text" xml:space="preserve">
+    <value>Environment Snapshot</value>
+  </data>
+  <data name="Label_PhantomKeyProcess.Text" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Label_PhantomKeyUptime.Text" xml:space="preserve">
+    <value>Uptime</value>
+  </data>
+  <data name="Label_PhantomKeyIntegrity.Text" xml:space="preserve">
+    <value>Integrity Level</value>
+  </data>
+  <data name="Label_PhantomKeyResponsiveness.Text" xml:space="preserve">
+    <value>Responsiveness</value>
+  </data>
+  <data name="PhantomKeyHealth_Running" xml:space="preserve">
+    <value>running</value>
+  </data>
+  <data name="Common_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Common_NotInstalled" xml:space="preserve">
+    <value>Not installed</value>
+  </data>
+  <data name="PhantomKeyHealth_NotRunning" xml:space="preserve">
+    <value>not running</value>
+  </data>
+  <data name="PhantomKeyResp_Responsive" xml:space="preserve">
+    <value>responsive ({0} ms)</value>
+  </data>
+  <data name="PhantomKeyResp_Busy" xml:space="preserve">
+    <value>busy ({0} ms)</value>
+  </data>
+  <data name="PhantomKeyResp_Stuck" xml:space="preserve">
+    <value>main loop stuck ({0} ms without advance)</value>
+  </data>
+  <data name="PhantomKeyResp_Hung" xml:space="preserve">
+    <value>not responding (process may be frozen)</value>
+  </data>
+  <data name="PhantomKeyResp_NoPingWindow" xml:space="preserve">
+    <value>no ping window (older build or just started)</value>
+  </data>
+  <data name="AboutSection_System.Text" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="Label_System.Text" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Label_Baseboard.Text" xml:space="preserve">
+    <value>Motherboard</value>
+  </data>
+  <data name="Label_Cpu.Text" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="Label_Ram.Text" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="Label_Gpu.Text" xml:space="preserve">
+    <value>GPU</value>
+  </data>
+  <data name="Label_OmniConsole.Text" xml:space="preserve">
+    <value>{OmniConsole}</value>
+  </data>
+  <data name="Label_PhantomBridge.Text" xml:space="preserve">
+    <value>PhantomBridge</value>
+  </data>
+  <data name="Label_PhantomKey.Text" xml:space="preserve">
+    <value>PhantomKey</value>
+  </data>
+  <data name="Label_PhantomPaw.Text" xml:space="preserve">
+    <value>PhantomPaw</value>
+  </data>
+  <data name="Label_PhantomLink.Text" xml:space="preserve">
+    <value>PhantomLink (OmniCharm)</value>
+  </data>
+  <data name="Label_WindowsBuild.Text" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="Label_FseState.Text" xml:space="preserve">
+    <value>Xbox Mode (FSE) State</value>
+  </data>
+  <data name="Label_MaxTouchPoints.Text" xml:space="preserve">
+    <value>Max Touch Points</value>
+  </data>
+  <data name="MaxTouchPoints_NoTouch" xml:space="preserve">
+    <value>no touchscreen</value>
+  </data>
+  <data name="Label_Locale.Text" xml:space="preserve">
+    <value>Locale</value>
+  </data>
+  <data name="Label_CountryRegion.Text" xml:space="preserve">
+    <value>Country or Region</value>
+  </data>
+  <data name="Label_DeviceRegion.Text" xml:space="preserve">
+    <value>Device Setup Region</value>
+  </data>
+  <data name="Label_CapturedAt.Text" xml:space="preserve">
+    <value>Captured at:</value>
+  </data>
+  <data name="XfsetStatus_NotInstalled" xml:space="preserve">
+    <value>not installed</value>
+  </data>
+  <data name="XfsetStatus_Installed" xml:space="preserve">
+    <value>installed</value>
+  </data>
+  <data name="XfsetStatus_TouchServiceRunning" xml:space="preserve">
+    <value>touchservice running</value>
+  </data>
+  <data name="XfsetStatus_TouchServiceNotRunning" xml:space="preserve">
+    <value>touchservice not running</value>
+  </data>
+  <data name="XfsetStatus_TouchServiceUnknown" xml:space="preserve">
+    <value>touchservice state unknown</value>
+  </data>
+  <data name="CopyAboutButton.Content" xml:space="preserve">
+    <value>Copy to Clipboard</value>
+  </data>
+  <data name="RefreshAboutButton.Content" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="AboutCopyConfirmTeachingTip.Title" xml:space="preserve">
+    <value>Copied to clipboard</value>
+  </data>
+  <data name="AboutCopyConfirmTeachingTip.Subtitle" xml:space="preserve">
+    <value>Paste it into a GitHub Issue.</value>
+  </data>
+  <data name="Nav_GamepadMapping.Content" xml:space="preserve">
+    <value>Nekomata</value>
+  </data>
+  <data name="GamepadMappingTitle.Text" xml:space="preserve">
+    <value>Nekomata</value>
+  </data>
+  <data name="GamepadMappingDescription.Text" xml:space="preserve">
+    <value>Nekomata will weave a charm for each app, conjuring the perfect keys and clicks for your gamepad.</value>
+  </data>
+  <data name="GamepadMappingEmptyHint.Text" xml:space="preserve">
+    <value>Meow~ no charmed apps yet. Open the OmniCharm widget in Game Bar and choose “Customize gamepad mapping for this app” — Nekomata will weave a new charm for it.</value>
+  </data>
+  <data name="GamepadMappingToolsSection.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="GamepadProfile_BlockNativeGamepadInput_Title.Text" xml:space="preserve">
+    <value>Prevent Double Input</value>
+  </data>
+  <data name="GamepadProfile_BlockNativeGamepadInput_Description.Text" xml:space="preserve">
+    <value>Block this app from receiving native XInput and DirectInput signals to prevent interference with the simulated keyboard and mouse.</value>
+  </data>
+  <data name="GamepadProfile_BlockNativeGamepadInput_Note.Text" xml:space="preserve">
+    <value>Restart the app to apply changes. Do not turn this on for games with anti-cheat protection (e.g., EAC, BattlEye, or VAC); otherwise you may trigger a violation.</value>
+  </data>
+  <data name="GamepadProfile_MappingServicePriority_Title.Text" xml:space="preserve">
+    <value>Nekomata Boost</value>
+  </data>
+  <data name="GamepadProfile_MappingServicePriority_Description.Text" xml:space="preserve">
+    <value>Raise the priority of the mapping service to reduce cursor stutter while running demanding games or apps.</value>
+  </data>
+  <data name="GamepadProcessPriority_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="GamepadProcessPriority_Performance" xml:space="preserve">
+    <value>Performance</value>
+  </data>
+  <data name="GamepadRepeatToggle.Content" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="GamepadMappingClearAllButton.Content" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="GamepadMappingClearAllConfirmTitle" xml:space="preserve">
+    <value>Clear all bindings?</value>
+  </data>
+  <data name="GamepadMappingClearAllConfirmBody" xml:space="preserve">
+    <value>All bindings will be set to None.</value>
+  </data>
+  <data name="GamepadMappingClearAllConfirmYes" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="GamepadMappingResetButton.Content" xml:space="preserve">
+    <value>OmniNav Defaults</value>
+  </data>
+  <data name="GamepadMappingResetConfirmTitle" xml:space="preserve">
+    <value>Reset to OmniNav defaults?</value>
+  </data>
+  <data name="GamepadMappingResetConfirmBody" xml:space="preserve">
+    <value>All current bindings will be overwritten with the OmniNav defaults.</value>
+  </data>
+  <data name="GamepadMappingResetConfirmYes" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="GamepadMappingResetClassicButton.Content" xml:space="preserve">
+    <value>Classic Defaults</value>
+  </data>
+  <data name="GamepadMappingResetClassicConfirmTitle" xml:space="preserve">
+    <value>Reset to Classic defaults?</value>
+  </data>
+  <data name="GamepadMappingResetClassicConfirmBody" xml:space="preserve">
+    <value>All current bindings will be overwritten with the Classic defaults.</value>
+  </data>
+  <data name="GamepadMappingResetClassicConfirmYes" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="GamepadMappingCopyFromButton.Content" xml:space="preserve">
+    <value>Copy from App…</value>
+  </data>
+  <data name="GamepadMappingChangeKeyButton" xml:space="preserve">
+    <value>Change key…</value>
+  </data>
+  <data name="AppIdProcessPrefix" xml:space="preserve">
+    <value>Process: </value>
+  </data>
+  <data name="AppIdAumidPrefix" xml:space="preserve">
+    <value>AUMID: </value>
+  </data>
+  <data name="GamepadProfile_PathBoundLabel.Text" xml:space="preserve">
+    <value>Bound to executable path:</value>
+  </data>
+  <data name="GamepadAction_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="GamepadAction_KeyTap" xml:space="preserve">
+    <value>Keyboard key</value>
+  </data>
+  <data name="GamepadAction_KeyCombo" xml:space="preserve">
+    <value>Key combo</value>
+  </data>
+  <data name="GamepadAction_MouseLeft" xml:space="preserve">
+    <value>Mouse left</value>
+  </data>
+  <data name="GamepadAction_MouseRight" xml:space="preserve">
+    <value>Mouse right</value>
+  </data>
+  <data name="GamepadAction_MouseMiddle" xml:space="preserve">
+    <value>Mouse middle</value>
+  </data>
+  <data name="GamepadAction_WheelUp" xml:space="preserve">
+    <value>Scroll up</value>
+  </data>
+  <data name="GamepadAction_WheelDown" xml:space="preserve">
+    <value>Scroll down</value>
+  </data>
+  <data name="GamepadAction_WheelLeft" xml:space="preserve">
+    <value>Scroll left</value>
+  </data>
+  <data name="GamepadAction_WheelRight" xml:space="preserve">
+    <value>Scroll right</value>
+  </data>
+  <data name="GamepadAction_StickCursor" xml:space="preserve">
+    <value>Cursor move</value>
+  </data>
+  <data name="GamepadAction_StickScroll" xml:space="preserve">
+    <value>Scroll</value>
+  </data>
+  <data name="GamepadAction_StickArrows" xml:space="preserve">
+    <value>Arrow keys</value>
+  </data>
+  <data name="GamepadAction_StickWasd" xml:space="preserve">
+    <value>WASD keys</value>
+  </data>
+  <data name="GamepadAction_DpadArrows" xml:space="preserve">
+    <value>Arrow keys</value>
+  </data>
+  <data name="GamepadAction_DpadWasd" xml:space="preserve">
+    <value>WASD keys</value>
+  </data>
+  <data name="GamepadAction_DpadNumpad" xml:space="preserve">
+    <value>Numpad 8246</value>
+  </data>
+  <data name="GamepadAction_DpadCustom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="GamepadInput_A.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="GamepadInput_B.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="GamepadInput_X.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="GamepadInput_Y.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="GamepadInput_LB.Text" xml:space="preserve">
+    <value>LB</value>
+  </data>
+  <data name="GamepadInput_RB.Text" xml:space="preserve">
+    <value>RB</value>
+  </data>
+  <data name="GamepadInput_LT.Text" xml:space="preserve">
+    <value>LT</value>
+  </data>
+  <data name="GamepadInput_RT.Text" xml:space="preserve">
+    <value>RT</value>
+  </data>
+  <data name="GamepadInput_LS.Text" xml:space="preserve">
+    <value>LS (Press)</value>
+  </data>
+  <data name="GamepadInput_RS.Text" xml:space="preserve">
+    <value>RS (Press)</value>
+  </data>
+  <data name="GamepadInput_DPad.Text" xml:space="preserve">
+    <value>D-pad</value>
+  </data>
+  <data name="GamepadInput_DPadUp.Text" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="GamepadInput_DPadDown.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="GamepadInput_DPadLeft.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="GamepadInput_DPadRight.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="GamepadInput_LStick.Text" xml:space="preserve">
+    <value>Left stick</value>
+  </data>
+  <data name="GamepadInput_RStick.Text" xml:space="preserve">
+    <value>Right stick</value>
+  </data>
+  <data name="GamepadGroup_FaceButtons.Text" xml:space="preserve">
+    <value>Face Buttons</value>
+  </data>
+  <data name="GamepadGroup_Shoulders.Text" xml:space="preserve">
+    <value>Shoulders / Triggers</value>
+  </data>
+  <data name="GamepadGroup_ThumbButtons.Text" xml:space="preserve">
+    <value>Stick Presses</value>
+  </data>
+  <data name="GamepadGroup_Sticks.Text" xml:space="preserve">
+    <value>Sticks / D-Pad</value>
+  </data>
+  <data name="GamepadModifier_Ctrl.Content" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="GamepadModifier_Shift.Content" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="GamepadModifier_Alt.Content" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="GamepadModifier_Win.Content" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="GamepadModifiersLabel.Text" xml:space="preserve">
+    <value>Modifiers</value>
+  </data>
+  <data name="GamepadKeyLabel.Text" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="GamepadMappingChangeKeyTitle" xml:space="preserve">
+    <value>Choose a key</value>
+  </data>
+  <data name="GamepadMappingChangeComboTitle" xml:space="preserve">
+    <value>Choose a key combo</value>
+  </data>
+  <data name="GamepadKeyPickerOk" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="GamepadKeyPickerCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="GamepadMappingCopyFromTitle" xml:space="preserve">
+    <value>Copy from another app</value>
+  </data>
+  <data name="GamepadMappingCopyFromHint" xml:space="preserve">
+    <value>Pick an existing profile to copy its bindings.</value>
+  </data>
+  <data name="GamepadMappingCopyFromPlaceholder" xml:space="preserve">
+    <value>Type to filter apps...</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmTitle" xml:space="preserve">
+    <value>Delete this profile?</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmBody" xml:space="preserve">
+    <value>The customized bindings for “{0}” will be removed and the built-in layout will take over again.</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmYes" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="GamepadMappingDeleteConfirmNo" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="GamepadMappingSearchBox.PlaceholderText" xml:space="preserve">
+    <value>Search apps…</value>
+  </data>
+  <data name="GamepadMappingSortAddOrderDesc" xml:space="preserve">
+    <value>Newest first</value>
+  </data>
+  <data name="GamepadMappingSortAddOrderAsc" xml:space="preserve">
+    <value>Oldest first</value>
+  </data>
+  <data name="GamepadMappingSortNameAsc" xml:space="preserve">
+    <value>Name (A to Z)</value>
+  </data>
+  <data name="GamepadMappingSortNameDesc" xml:space="preserve">
+    <value>Name (Z to A)</value>
+  </data>
+  <data name="GamepadMappingNoSearchResultHint.Text" xml:space="preserve">
+    <value>No matching apps found.</value>
+  </data>
+  <data name="GamepadHint_SwitchPage.Text" xml:space="preserve">
+    <value>Switch page</value>
+  </data>
+  <data name="GamepadHint_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="GamepadMappingEmptyConfirmTitle" xml:space="preserve">
+    <value>Save with no bindings?</value>
+  </data>
+  <data name="GamepadMappingEmptyConfirmBody" xml:space="preserve">
+    <value>All bindings are set to None. The built-in layout will take over for this app.</value>
+  </data>
+  <data name="GamepadMappingEmptyRemoveTitle" xml:space="preserve">
+    <value>Remove custom mapping for this app?</value>
+  </data>
+  <data name="GamepadMappingEmptyRemoveBody" xml:space="preserve">
+    <value>All bindings are set to None, which is the same as having no custom mapping. The built-in layout will take over for this app.</value>
+  </data>
+  <data name="GamepadMappingEmptyRemoveYes" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="GamepadMappingBlacklistedTitle" xml:space="preserve">
+    <value>This app cannot be customized</value>
+  </data>
+  <data name="GamepadMappingBlacklistedBody" xml:space="preserve">
+    <value>This app does not support custom gamepad mapping.</value>
+  </data>
+  <data name="GamepadKeyGroup_Letters" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="GamepadKeyGroup_Digits" xml:space="preserve">
+    <value>Digits</value>
+  </data>
+  <data name="GamepadKeyGroup_FunctionKeys" xml:space="preserve">
+    <value>Function keys</value>
+  </data>
+  <data name="GamepadKeyGroup_EditNav" xml:space="preserve">
+    <value>Edit / Navigation</value>
+  </data>
+  <data name="GamepadKeyGroup_Control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="GamepadKeyGroup_Symbols" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="GamepadKeyGroup_Numpad" xml:space="preserve">
+    <value>Numpad</value>
+  </data>
+  <data name="GamepadKeyGroup_Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="GamepadKeyGroup_Modifiers" xml:space="preserve">
+    <value>Modifiers</value>
+  </data>
+  <data name="Vk_Insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="Vk_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Vk_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Vk_End" xml:space="preserve">
+    <value>End</value>
+  </data>
+  <data name="Vk_PageUp" xml:space="preserve">
+    <value>Page Up</value>
+  </data>
+  <data name="Vk_PageDown" xml:space="preserve">
+    <value>Page Down</value>
+  </data>
+  <data name="Vk_ArrowUp" xml:space="preserve">
+    <value>Arrow Up</value>
+  </data>
+  <data name="Vk_ArrowDown" xml:space="preserve">
+    <value>Arrow Down</value>
+  </data>
+  <data name="Vk_ArrowLeft" xml:space="preserve">
+    <value>Arrow Left</value>
+  </data>
+  <data name="Vk_ArrowRight" xml:space="preserve">
+    <value>Arrow Right</value>
+  </data>
+  <data name="Vk_Enter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Vk_Escape" xml:space="preserve">
+    <value>Esc</value>
+  </data>
+  <data name="Vk_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Vk_Backspace" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="Vk_Space" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="Vk_PrintScreen" xml:space="preserve">
+    <value>PrtSc</value>
+  </data>
+  <data name="Vk_Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Vk_CapsLock" xml:space="preserve">
+    <value>Caps Lock</value>
+  </data>
+  <data name="Vk_Apps" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="Vk_VolumeUp" xml:space="preserve">
+    <value>Volume Up</value>
+  </data>
+  <data name="Vk_VolumeDown" xml:space="preserve">
+    <value>Volume Down</value>
+  </data>
+  <data name="Vk_VolumeMute" xml:space="preserve">
+    <value>Mute</value>
+  </data>
+  <data name="Vk_MediaPlayPause" xml:space="preserve">
+    <value>Play / Pause</value>
+  </data>
+  <data name="Vk_MediaStop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Vk_MediaNext" xml:space="preserve">
+    <value>Next Track</value>
+  </data>
+  <data name="Vk_MediaPrev" xml:space="preserve">
+    <value>Previous Track</value>
+  </data>
+  <data name="Vk_BrowserBack" xml:space="preserve">
+    <value>Browser Back</value>
+  </data>
+  <data name="Vk_BrowserForward" xml:space="preserve">
+    <value>Browser Forward</value>
+  </data>
+  <data name="Vk_BrowserRefresh" xml:space="preserve">
+    <value>Browser Refresh</value>
+  </data>
+  <data name="Vk_BrowserHome" xml:space="preserve">
+    <value>Browser Home</value>
+  </data>
+  <data name="Vk_LaunchMail" xml:space="preserve">
+    <value>Launch Mail</value>
+  </data>
+  <data name="Vk_LaunchMediaSelect" xml:space="preserve">
+    <value>Launch Media</value>
+  </data>
+  <data name="Vk_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="Vk_Ctrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="Vk_Alt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="Vk_LShift" xml:space="preserve">
+    <value>Left Shift</value>
+  </data>
+  <data name="Vk_RShift" xml:space="preserve">
+    <value>Right Shift</value>
+  </data>
+  <data name="Vk_LCtrl" xml:space="preserve">
+    <value>Left Ctrl</value>
+  </data>
+  <data name="Vk_RCtrl" xml:space="preserve">
+    <value>Right Ctrl</value>
+  </data>
+  <data name="Vk_LAlt" xml:space="preserve">
+    <value>Left Alt</value>
+  </data>
+  <data name="Vk_RAlt" xml:space="preserve">
+    <value>Right Alt</value>
+  </data>
+  <data name="Vk_LWin" xml:space="preserve">
+    <value>Left Win</value>
+  </data>
+  <data name="Vk_RWin" xml:space="preserve">
+    <value>Right Win</value>
+  </data>
+  <data name="GamepadHint_DeleteProfile.Text" xml:space="preserve">
+    <value>Delete this profile</value>
+  </data>
+  <data name="GamepadHint_SaveReturn.Text" xml:space="preserve">
+    <value>Save &amp; return</value>
+  </data>
+  <data name="AdvancedSection_Display.Text" xml:space="preserve">
+    <value>Interface Display</value>
+  </data>
+  <data name="LanguageSetting_Title.Text" xml:space="preserve">
+    <value>Display Language</value>
+  </data>
+  <data name="LanguageSetting_Description.Text" xml:space="preserve">
+    <value>Choose the interface language.</value>
+  </data>
+  <data name="LanguageItem_SystemDefault" xml:space="preserve">
+    <value>System default</value>
+  </data>
+  <data name="LanguageItem_CommunitySuffix" xml:space="preserve">
+    <value>(Community)</value>
+  </data>
+  <data name="LanguageItem_CommunityWithTranslator" xml:space="preserve">
+    <value>(Community - {0})</value>
+  </data>
+  <data name="LanguageRestartDialog_Title" xml:space="preserve">
+    <value>Restart Required</value>
+  </data>
+  <data name="LanguageRestartDialog_Body" xml:space="preserve">
+    <value>The language change takes effect after restarting. Restart now?</value>
+  </data>
+  <data name="LanguageRestartDialog_Restart" xml:space="preserve">
+    <value>Restart Now</value>
+  </data>
+  <data name="LanguageRestartDialog_Later" xml:space="preserve">
+    <value>Later</value>
+  </data>
+  <data name="ManageLanguagesSetting_Title.Text" xml:space="preserve">
+    <value>Community Languages</value>
+  </data>
+  <data name="ManageLanguagesSetting_Description.Text" xml:space="preserve">
+    <value>Browse, download, and update community-contributed translations.</value>
+  </data>
+  <data name="ManageLanguagesButton.Content" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="ManageLanguages_Title" xml:space="preserve">
+    <value>Community Languages</value>
+  </data>
+  <data name="ManageLanguages_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ManageLanguages_Loading" xml:space="preserve">
+    <value>Loading available languages...</value>
+  </data>
+  <data name="ManageLanguages_Downloading" xml:space="preserve">
+    <value>Downloading...</value>
+  </data>
+  <data name="ManageLanguages_Error" xml:space="preserve">
+    <value>Could not connect to the translation repository. Please check your internet connection and try again.</value>
+  </data>
+  <data name="ManageLanguages_Empty" xml:space="preserve">
+    <value>No community languages are available for this version yet.</value>
+  </data>
+  <data name="ManageLanguages_OfflineNotice" xml:space="preserve">
+    <value>Offline. You can remove installed languages, but downloads and updates are unavailable.</value>
+  </data>
+  <data name="ManageLanguages_SelectHint" xml:space="preserve">
+    <value>Select a language to see details.</value>
+  </data>
+  <data name="ManageLanguages_Translators" xml:space="preserve">
+    <value>Translators: {0}</value>
+  </data>
+  <data name="ManageLanguages_TranslatorSeparator" xml:space="preserve">
+    <value>, </value>
+  </data>
+  <data name="ManageLanguages_Status_NotInstalled" xml:space="preserve">
+    <value>Not installed</value>
+  </data>
+  <data name="ManageLanguages_Status_Installed" xml:space="preserve">
+    <value>Installed</value>
+  </data>
+  <data name="ManageLanguages_Status_UpdateAvailable" xml:space="preserve">
+    <value>Update available</value>
+  </data>
+  <data name="ManageLanguages_Action_Install" xml:space="preserve">
+    <value>Download &amp; Install</value>
+  </data>
+  <data name="ManageLanguages_Action_Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ManageLanguages_Action_Uninstall" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="ManageLanguages_Revision" xml:space="preserve">
+    <value>Revision {0}</value>
+  </data>
+  <data name="ManageLanguages_Revision_Installed" xml:space="preserve">
+    <value>Revision {0} (installed)</value>
+  </data>
+  <data name="ManageLanguages_Revision_UpdateAvailable" xml:space="preserve">
+    <value>Revision {0} (installed {1})</value>
+  </data>
+  <data name="ManageLanguages_Result_Downloaded" xml:space="preserve">
+    <value>Installed successfully.</value>
+  </data>
+  <data name="ManageLanguages_Result_Removed" xml:space="preserve">
+    <value>Removed successfully.</value>
+  </data>
+  <data name="ManageLanguages_Result_Failed" xml:space="preserve">
+    <value>Something went wrong. Please check your internet connection and try again.</value>
+  </data>
+  <data name="AdvancedSection_Sound.Text" xml:space="preserve">
+    <value>Interface Sound</value>
+  </data>
+  <data name="NavigationSoundsSetting_Title.Text" xml:space="preserve">
+    <value>Navigation Sounds</value>
+  </data>
+  <data name="NavigationSoundsSetting_Description.Text" xml:space="preserve">
+    <value>Play sounds when navigating.</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_Header.Text" xml:space="preserve">
+    <value>The following applications are using Nekomata's PhantomPaw. Please close them and retry the update:</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_Hint.Text" xml:space="preserve">
+    <value>Close the applications and press Retry, or press Cancel to update later.</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_RetryButton" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="AppsUsingPhantomPawDialog_CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AboutSection_ReleaseInfo.Text" xml:space="preserve">
+    <value>Release Info</value>
+  </data>
+  <data name="Label_CommitHash.Text" xml:space="preserve">
+    <value>Commit:</value>
+  </data>
+  <data name="Label_BuiltAt.Text" xml:space="preserve">
+    <value>Built at:</value>
+  </data>
+  <data name="Label_Source.Text" xml:space="preserve">
+    <value>Official repository</value>
+  </data>
+  <data name="CertDetailsButton.Content" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="CertDetailsDialog_Title" xml:space="preserve">
+    <value>Certificate Details</value>
+  </data>
+  <data name="CertDetailsDialog_Body.Text" xml:space="preserve">
+    <value>This copy of {OmniConsole} is signed with the following certificate. Compare the SHA-256 thumbprint with the value published in AUTHENTICITY.md on the official repository. If the values do not match, this build is not from the official source. The OmniCharm widget is signed with the same certificate; for full per-package verification, see AUTHENTICITY.md.</value>
+  </data>
+  <data name="CertDetailsDialog_OpenAuthenticity.Content" xml:space="preserve">
+    <value>Open AUTHENTICITY.md to view published thumbprint</value>
+  </data>
+  <data name="CertDetailsDialog_CopyButton" xml:space="preserve">
+    <value>Copy Thumbprint</value>
+  </data>
+  <data name="CertDetailsDialog_CloseButton" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="CertDetailsDialog_Copied.Text" xml:space="preserve">
+    <value>Thumbprint copied to clipboard.</value>
+  </data>
+  <data name="OpenCommitOnGitHubAccessibleName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open this commit on GitHub</value>
+  </data>
+  <data name="OpenRepoOnGitHubAccessibleName.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
+    <value>Open repository on GitHub</value>
+  </data>
+  <data name="CommunityPlatformsButton.Content" xml:space="preserve">
+    <value>Community</value>
+  </data>
+  <data name="CommunityPlatforms_Title" xml:space="preserve">
+    <value>Community Platforms</value>
+  </data>
+  <data name="CommunityPlatforms_Loading" xml:space="preserve">
+    <value>Loading community platforms…</value>
+  </data>
+  <data name="CommunityPlatforms_Error" xml:space="preserve">
+    <value>Could not connect to the community platform repository. Please check your internet connection and try again.</value>
+  </data>
+  <data name="CommunityPlatforms_Empty" xml:space="preserve">
+    <value>No community platforms are available yet.</value>
+  </data>
+  <data name="CommunityPlatforms_SchemaTooNew" xml:space="preserve">
+    <value>The community platform catalog requires a newer app version. Please update the app first.</value>
+  </data>
+  <data name="CommunityPlatforms_SearchPlaceholder" xml:space="preserve">
+    <value>Search platforms or submitters…</value>
+  </data>
+  <data name="CommunityPlatforms_SortNewest" xml:space="preserve">
+    <value>Newest first</value>
+  </data>
+  <data name="CommunityPlatforms_SortOldest" xml:space="preserve">
+    <value>Oldest first</value>
+  </data>
+  <data name="CommunityPlatforms_SelectHint" xml:space="preserve">
+    <value>Select a platform to see details.</value>
+  </data>
+  <data name="CommunityPlatforms_NoResults" xml:space="preserve">
+    <value>No matching platforms found.</value>
+  </data>
+  <data name="CommunityPlatforms_Submitter" xml:space="preserve">
+    <value>Provided by {0}</value>
+  </data>
+  <data name="CommunityPlatforms_SubmitterDate" xml:space="preserve">
+    <value>Provided by {0} · {1}</value>
+  </data>
+  <data name="CommunityPlatforms_NotDetected" xml:space="preserve">
+    <value>The executable was not found on this console and must be located when adding.</value>
+  </data>
+  <data name="CommunityPlatforms_Action_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="CommunityPlatforms_Result_Added" xml:space="preserve">
+    <value>“{0}” was added to your custom platforms.</value>
+  </data>
+  <data name="Import_Error_PackageNotInstalled" xml:space="preserve">
+    <value>This app package is not installed on this console.</value>
+  </data>
+  <data name="CommunityPlatforms_CheckingUpdates" xml:space="preserve">
+    <value>Checking for catalog updates…</value>
+  </data>
+  <data name="CommunityPlatforms_OfflineNotice" xml:space="preserve">
+    <value>Offline. Showing cached community platforms. You can still add them, but the list may be out of date.</value>
+  </data>
+  <data name="Import_Error_ExecutableNotFound" xml:space="preserve">
+    <value>The executable was not found on this console.</value>
+  </data>
+</root>

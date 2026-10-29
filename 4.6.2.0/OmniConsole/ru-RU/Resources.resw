@@ -1872,7 +1872,7 @@
     <value>Поддержка приложений с правами администратора</value>
   </data>
   <data name="ElevatedAppSupportSetting_Description.Text" xml:space="preserve">
-    <value>Разраешить испольовать привязки геймпада в приложениях, запущенных с правами администратора. Требует установки с правами администратора.</value>
+    <value>Разрешить использовать привязки геймпада в приложениях, запущенных с правами администратора. Требует установки с правами администратора.</value>
   </data>
   <data name="ElevatedAppSupport_Install" xml:space="preserve">
     <value>Установить</value>
